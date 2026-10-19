@@ -1,0 +1,6728 @@
+{
+ "meta": {
+  "school": "هنرستان فنی شهید چمران مهاباد",
+  "year": "۱۴۰۵-۱۴۰۶",
+  "app": "همیار هنرستان",
+  "version": "1.0.0"
+ },
+ "majors": [
+  "برق",
+  "الکترونیک",
+  "ماشین ابزار",
+  "ساختمان",
+  "تاسیسات",
+  "مکانیک"
+ ],
+ "users": [
+  {
+   "id": "U01",
+   "username": "modir",
+   "password": "123456",
+   "name": "فرزاد جهینی",
+   "role": "manager",
+   "roleTitle": "مدیر هنرستان",
+   "scope": null
+  },
+  {
+   "id": "U02",
+   "username": "moaven_fanni",
+   "password": "123456",
+   "name": "شیرکو پنه‌ای",
+   "role": "deputy_technical",
+   "roleTitle": "معاون فنی",
+   "scope": null
+  },
+  {
+   "id": "U03",
+   "username": "moaven_amozeshi",
+   "password": "123456",
+   "name": "عبدالرحمن ابراهیمی",
+   "role": "deputy_education",
+   "roleTitle": "معاون آموزشی",
+   "scope": null
+  },
+  {
+   "id": "U04",
+   "username": "bargh",
+   "password": "123456",
+   "name": "یوسف نومسلمان",
+   "role": "supervisor",
+   "roleTitle": "سرپرست کارگاه برق",
+   "scope": "برق"
+  },
+  {
+   "id": "U05",
+   "username": "elektronik",
+   "password": "123456",
+   "name": "سیرکو احمدی",
+   "role": "supervisor",
+   "roleTitle": "سرپرست کارگاه الکترونیک",
+   "scope": "الکترونیک"
+  },
+  {
+   "id": "U06",
+   "username": "tasisat",
+   "password": "123456",
+   "name": "یعقوب عبدالهی",
+   "role": "supervisor",
+   "roleTitle": "سرپرست کارگاه تاسیسات",
+   "scope": "تاسیسات"
+  },
+  {
+   "id": "U07",
+   "username": "mekanik",
+   "password": "123456",
+   "name": "یوسف قادری",
+   "role": "supervisor",
+   "roleTitle": "سرپرست کارگاه مکانیک خودرو",
+   "scope": "مکانیک"
+  },
+  {
+   "id": "U08",
+   "username": "sakhteman",
+   "password": "123456",
+   "name": "مسعود آریا",
+   "role": "supervisor",
+   "roleTitle": "سرپرست کارگاه ساختمان",
+   "scope": "ساختمان"
+  },
+  {
+   "id": "U09",
+   "username": "mashin",
+   "password": "123456",
+   "name": "سوران محمود نژاد",
+   "role": "supervisor",
+   "roleTitle": "سرپرست کارگاه ماشین ابزار",
+   "scope": "ماشین ابزار"
+  }
+ ],
+ "classes": [
+  {
+   "id": "C01",
+   "grade": 11,
+   "major": "برق",
+   "title": "یازدهم برق"
+  },
+  {
+   "id": "C02",
+   "grade": 11,
+   "major": "تاسیسات",
+   "title": "یازدهم تاسیسات"
+  },
+  {
+   "id": "C03",
+   "grade": 11,
+   "major": "الکترونیک",
+   "title": "یازدهم الکترونیک"
+  },
+  {
+   "id": "C04",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "title": "یازدهم ماشین ابزار"
+  },
+  {
+   "id": "C05",
+   "grade": 11,
+   "major": "مکانیک",
+   "title": "یازدهم مکانیک"
+  },
+  {
+   "id": "C06",
+   "grade": 11,
+   "major": "ساختمان",
+   "title": "یازدهم ساختمان"
+  },
+  {
+   "id": "C07",
+   "grade": 12,
+   "major": "برق",
+   "title": "دوازدهم برق"
+  },
+  {
+   "id": "C08",
+   "grade": 12,
+   "major": "تاسیسات",
+   "title": "دوازدهم تاسیسات"
+  },
+  {
+   "id": "C09",
+   "grade": 12,
+   "major": "الکترونیک",
+   "title": "دوازدهم الکترونیک"
+  },
+  {
+   "id": "C10",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "title": "دوازدهم ماشین ابزار"
+  },
+  {
+   "id": "C11",
+   "grade": 12,
+   "major": "مکانیک",
+   "title": "دوازدهم مکانیک"
+  },
+  {
+   "id": "C12",
+   "grade": 12,
+   "major": "ساختمان",
+   "title": "دوازدهم ساختمان"
+  },
+  {
+   "id": "C13",
+   "grade": 10,
+   "major": "برق",
+   "title": "دهم برق"
+  },
+  {
+   "id": "C14",
+   "grade": 10,
+   "major": "تاسیسات",
+   "title": "دهم تاسیسات"
+  },
+  {
+   "id": "C15",
+   "grade": 10,
+   "major": "الکترونیک",
+   "title": "دهم الکترونیک"
+  },
+  {
+   "id": "C16",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "title": "دهم ماشین ابزار"
+  },
+  {
+   "id": "C17",
+   "grade": 10,
+   "major": "مکانیک",
+   "title": "دهم مکانیک"
+  },
+  {
+   "id": "C18",
+   "grade": 10,
+   "major": "ساختمان",
+   "title": "دهم ساختمان"
+  }
+ ],
+ "students": [
+  {
+   "id": "S0001",
+   "classId": "C01",
+   "firstName": "زانا",
+   "lastName": "آب ده",
+   "status": "active"
+  },
+  {
+   "id": "S0002",
+   "classId": "C01",
+   "firstName": "سيدماردين",
+   "lastName": "اميني",
+   "status": "active"
+  },
+  {
+   "id": "S0003",
+   "classId": "C01",
+   "firstName": "اميرارسلان",
+   "lastName": "اوجاقي اقباش",
+   "status": "active"
+  },
+  {
+   "id": "S0004",
+   "classId": "C01",
+   "firstName": "آژوان",
+   "lastName": "جامه گري",
+   "status": "active"
+  },
+  {
+   "id": "S0005",
+   "classId": "C01",
+   "firstName": "فرزين",
+   "lastName": "جليلي",
+   "status": "active"
+  },
+  {
+   "id": "S0006",
+   "classId": "C01",
+   "firstName": "روژمان",
+   "lastName": "جهاني راد",
+   "status": "active"
+  },
+  {
+   "id": "S0007",
+   "classId": "C01",
+   "firstName": "كيان",
+   "lastName": "خداياري فر",
+   "status": "active"
+  },
+  {
+   "id": "S0008",
+   "classId": "C01",
+   "firstName": "نيما",
+   "lastName": "دشتي",
+   "status": "active"
+  },
+  {
+   "id": "S0009",
+   "classId": "C01",
+   "firstName": "كيان",
+   "lastName": "دلپسند",
+   "status": "active"
+  },
+  {
+   "id": "S0010",
+   "classId": "C01",
+   "firstName": "ريبين",
+   "lastName": "رحماني",
+   "status": "active"
+  },
+  {
+   "id": "S0011",
+   "classId": "C01",
+   "firstName": "كارزان",
+   "lastName": "رسولي",
+   "status": "active"
+  },
+  {
+   "id": "S0012",
+   "classId": "C01",
+   "firstName": "روژمان",
+   "lastName": "رشه",
+   "status": "active"
+  },
+  {
+   "id": "S0013",
+   "classId": "C01",
+   "firstName": "محمدبنيامين",
+   "lastName": "رشيدي قاضي",
+   "status": "active"
+  },
+  {
+   "id": "S0014",
+   "classId": "C01",
+   "firstName": "اردلان",
+   "lastName": "زيبرم",
+   "status": "active"
+  },
+  {
+   "id": "S0015",
+   "classId": "C01",
+   "firstName": "كيان",
+   "lastName": "سيداميني",
+   "status": "active"
+  },
+  {
+   "id": "S0016",
+   "classId": "C01",
+   "firstName": "رامان",
+   "lastName": "عثماني",
+   "status": "active"
+  },
+  {
+   "id": "S0017",
+   "classId": "C01",
+   "firstName": "شايان",
+   "lastName": "عزيزي",
+   "status": "active"
+  },
+  {
+   "id": "S0018",
+   "classId": "C01",
+   "firstName": "بنيامين",
+   "lastName": "علي زاده آذر",
+   "status": "active"
+  },
+  {
+   "id": "S0019",
+   "classId": "C01",
+   "firstName": "آميار",
+   "lastName": "قادري",
+   "status": "active"
+  },
+  {
+   "id": "S0020",
+   "classId": "C01",
+   "firstName": "سيدمحمد",
+   "lastName": "قريشي",
+   "status": "active"
+  },
+  {
+   "id": "S0021",
+   "classId": "C01",
+   "firstName": "آريان",
+   "lastName": "كاك ممي سياقول عليا",
+   "status": "active"
+  },
+  {
+   "id": "S0022",
+   "classId": "C01",
+   "firstName": "محمدسبحان",
+   "lastName": "لاوژه",
+   "status": "active"
+  },
+  {
+   "id": "S0023",
+   "classId": "C01",
+   "firstName": "آريا",
+   "lastName": "مام شريفي",
+   "status": "active"
+  },
+  {
+   "id": "S0024",
+   "classId": "C01",
+   "firstName": "شاهين",
+   "lastName": "محمدپور",
+   "status": "active"
+  },
+  {
+   "id": "S0025",
+   "classId": "C01",
+   "firstName": "محمد",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0026",
+   "classId": "C01",
+   "firstName": "وفا",
+   "lastName": "محمدي توتونچي",
+   "status": "active"
+  },
+  {
+   "id": "S0027",
+   "classId": "C01",
+   "firstName": "سيدكمال",
+   "lastName": "محي الديني",
+   "status": "active"
+  },
+  {
+   "id": "S0028",
+   "classId": "C01",
+   "firstName": "محمد",
+   "lastName": "مرادبيگي",
+   "status": "active"
+  },
+  {
+   "id": "S0029",
+   "classId": "C02",
+   "firstName": "محمد",
+   "lastName": "آلي پور",
+   "status": "active"
+  },
+  {
+   "id": "S0030",
+   "classId": "C02",
+   "firstName": "متين",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0031",
+   "classId": "C02",
+   "firstName": "محمدآرين",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0032",
+   "classId": "C02",
+   "firstName": "رامان",
+   "lastName": "انصاري",
+   "status": "active"
+  },
+  {
+   "id": "S0033",
+   "classId": "C02",
+   "firstName": "احسان",
+   "lastName": "بهارپور",
+   "status": "active"
+  },
+  {
+   "id": "S0034",
+   "classId": "C02",
+   "firstName": "متين",
+   "lastName": "بهارپور",
+   "status": "active"
+  },
+  {
+   "id": "S0035",
+   "classId": "C02",
+   "firstName": "محمد",
+   "lastName": "بهامين",
+   "status": "active"
+  },
+  {
+   "id": "S0036",
+   "classId": "C02",
+   "firstName": "ساتيار",
+   "lastName": "تكمه چي ساوجبلاغ",
+   "status": "active"
+  },
+  {
+   "id": "S0037",
+   "classId": "C02",
+   "firstName": "عبدالرحمان",
+   "lastName": "تيماسي",
+   "status": "active"
+  },
+  {
+   "id": "S0038",
+   "classId": "C02",
+   "firstName": "صدرا",
+   "lastName": "ثقفي",
+   "status": "active"
+  },
+  {
+   "id": "S0039",
+   "classId": "C02",
+   "firstName": "ساتيار",
+   "lastName": "چوگاني",
+   "status": "active"
+  },
+  {
+   "id": "S0040",
+   "classId": "C02",
+   "firstName": "ماهان",
+   "lastName": "دلخواه",
+   "status": "active"
+  },
+  {
+   "id": "S0041",
+   "classId": "C02",
+   "firstName": "اسماعيل",
+   "lastName": "رحماني",
+   "status": "active"
+  },
+  {
+   "id": "S0042",
+   "classId": "C02",
+   "firstName": "كارو",
+   "lastName": "عبداله زرگه",
+   "status": "active"
+  },
+  {
+   "id": "S0043",
+   "classId": "C02",
+   "firstName": "كاوان",
+   "lastName": "عزيزي",
+   "status": "active"
+  },
+  {
+   "id": "S0044",
+   "classId": "C02",
+   "firstName": "محمد",
+   "lastName": "فتاحي",
+   "status": "active"
+  },
+  {
+   "id": "S0045",
+   "classId": "C02",
+   "firstName": "كسري",
+   "lastName": "قادري",
+   "status": "active"
+  },
+  {
+   "id": "S0046",
+   "classId": "C02",
+   "firstName": "ژيار",
+   "lastName": "گوركي",
+   "status": "active"
+  },
+  {
+   "id": "S0047",
+   "classId": "C02",
+   "firstName": "احسان",
+   "lastName": "مالكي",
+   "status": "active"
+  },
+  {
+   "id": "S0048",
+   "classId": "C02",
+   "firstName": "ژيلوان",
+   "lastName": "محمودپور",
+   "status": "active"
+  },
+  {
+   "id": "S0049",
+   "classId": "C02",
+   "firstName": "آريا",
+   "lastName": "معروفي نيا",
+   "status": "active"
+  },
+  {
+   "id": "S0050",
+   "classId": "C02",
+   "firstName": "كارن",
+   "lastName": "هدايت مكاري",
+   "status": "active"
+  },
+  {
+   "id": "S0051",
+   "classId": "C02",
+   "firstName": "سينا",
+   "lastName": "يزدانفر",
+   "status": "active"
+  },
+  {
+   "id": "S0052",
+   "classId": "C03",
+   "firstName": "مبين",
+   "lastName": "آشنا",
+   "status": "active"
+  },
+  {
+   "id": "S0053",
+   "classId": "C03",
+   "firstName": "ساكو",
+   "lastName": "احمدنژادمزرعه",
+   "status": "active"
+  },
+  {
+   "id": "S0054",
+   "classId": "C03",
+   "firstName": "مبين",
+   "lastName": "اميني",
+   "status": "active"
+  },
+  {
+   "id": "S0055",
+   "classId": "C03",
+   "firstName": "ميلاد",
+   "lastName": "انصاري سرا",
+   "status": "active"
+  },
+  {
+   "id": "S0056",
+   "classId": "C03",
+   "firstName": "كامران",
+   "lastName": "بارنج",
+   "status": "active"
+  },
+  {
+   "id": "S0057",
+   "classId": "C03",
+   "firstName": "فاروق",
+   "lastName": "توصيفيان",
+   "status": "active"
+  },
+  {
+   "id": "S0058",
+   "classId": "C03",
+   "firstName": "مبين",
+   "lastName": "چاليك",
+   "status": "active"
+  },
+  {
+   "id": "S0059",
+   "classId": "C03",
+   "firstName": "نويد",
+   "lastName": "حسن پور",
+   "status": "active"
+  },
+  {
+   "id": "S0060",
+   "classId": "C03",
+   "firstName": "ديان",
+   "lastName": "درياب",
+   "status": "active"
+  },
+  {
+   "id": "S0061",
+   "classId": "C03",
+   "firstName": "ديار",
+   "lastName": "رسول پور",
+   "status": "active"
+  },
+  {
+   "id": "S0062",
+   "classId": "C03",
+   "firstName": "هژار",
+   "lastName": "سيداحمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0063",
+   "classId": "C03",
+   "firstName": "آمانج",
+   "lastName": "شايان",
+   "status": "active"
+  },
+  {
+   "id": "S0064",
+   "classId": "C03",
+   "firstName": "محمداحسان",
+   "lastName": "صالحي نيا",
+   "status": "active"
+  },
+  {
+   "id": "S0065",
+   "classId": "C03",
+   "firstName": "آرمان",
+   "lastName": "صمدزاده قولنجي",
+   "status": "active"
+  },
+  {
+   "id": "S0066",
+   "classId": "C03",
+   "firstName": "ماردين",
+   "lastName": "عبداله زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0067",
+   "classId": "C03",
+   "firstName": "متين",
+   "lastName": "عبدي پور",
+   "status": "active"
+  },
+  {
+   "id": "S0068",
+   "classId": "C03",
+   "firstName": "احسان",
+   "lastName": "عزيزي",
+   "status": "active"
+  },
+  {
+   "id": "S0069",
+   "classId": "C03",
+   "firstName": "محمد",
+   "lastName": "عزيزي",
+   "status": "active"
+  },
+  {
+   "id": "S0070",
+   "classId": "C03",
+   "firstName": "ژيار",
+   "lastName": "فتاح زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0071",
+   "classId": "C03",
+   "firstName": "ساكو",
+   "lastName": "قادرنژاد",
+   "status": "active"
+  },
+  {
+   "id": "S0072",
+   "classId": "C03",
+   "firstName": "ماهان",
+   "lastName": "مجيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0073",
+   "classId": "C03",
+   "firstName": "ابراهيم",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0074",
+   "classId": "C03",
+   "firstName": "كيان",
+   "lastName": "مصطفي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0075",
+   "classId": "C03",
+   "firstName": "اسماعيل",
+   "lastName": "هوشمند",
+   "status": "active"
+  },
+  {
+   "id": "S0076",
+   "classId": "C04",
+   "firstName": "كاويان",
+   "lastName": "احمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0077",
+   "classId": "C04",
+   "firstName": "ارشيا",
+   "lastName": "اماني",
+   "status": "active"
+  },
+  {
+   "id": "S0078",
+   "classId": "C04",
+   "firstName": "محمد",
+   "lastName": "اميني",
+   "status": "active"
+  },
+  {
+   "id": "S0079",
+   "classId": "C04",
+   "firstName": "محمد",
+   "lastName": "حسن زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0080",
+   "classId": "C04",
+   "firstName": "ماردين",
+   "lastName": "حسين زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0081",
+   "classId": "C04",
+   "firstName": "سيدشايان",
+   "lastName": "حسيني",
+   "status": "active"
+  },
+  {
+   "id": "S0082",
+   "classId": "C04",
+   "firstName": "ميران",
+   "lastName": "دربائي",
+   "status": "active"
+  },
+  {
+   "id": "S0083",
+   "classId": "C04",
+   "firstName": "زكريا",
+   "lastName": "راه نشين",
+   "status": "active"
+  },
+  {
+   "id": "S0084",
+   "classId": "C04",
+   "firstName": "دارا",
+   "lastName": "رحمتي محمدآباد",
+   "status": "active"
+  },
+  {
+   "id": "S0085",
+   "classId": "C04",
+   "firstName": "ريبوار",
+   "lastName": "رسول پورآذر",
+   "status": "active"
+  },
+  {
+   "id": "S0086",
+   "classId": "C04",
+   "firstName": "نيما",
+   "lastName": "رسولي",
+   "status": "active"
+  },
+  {
+   "id": "S0087",
+   "classId": "C04",
+   "firstName": "افشين",
+   "lastName": "عبداله پور",
+   "status": "active"
+  },
+  {
+   "id": "S0088",
+   "classId": "C04",
+   "firstName": "فردين",
+   "lastName": "قادري",
+   "status": "active"
+  },
+  {
+   "id": "S0089",
+   "classId": "C04",
+   "firstName": "زانا",
+   "lastName": "محمدپور",
+   "status": "active"
+  },
+  {
+   "id": "S0090",
+   "classId": "C04",
+   "firstName": "ماهان",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0091",
+   "classId": "C05",
+   "firstName": "عبدالرحمان",
+   "lastName": "آفاني",
+   "status": "active"
+  },
+  {
+   "id": "S0092",
+   "classId": "C05",
+   "firstName": "كژوان",
+   "lastName": "احمدي آذر",
+   "status": "active"
+  },
+  {
+   "id": "S0093",
+   "classId": "C05",
+   "firstName": "كيان",
+   "lastName": "اكيده",
+   "status": "active"
+  },
+  {
+   "id": "S0094",
+   "classId": "C05",
+   "firstName": "ايمان",
+   "lastName": "اماني",
+   "status": "active"
+  },
+  {
+   "id": "S0095",
+   "classId": "C05",
+   "firstName": "سهيل",
+   "lastName": "بروشكه",
+   "status": "active"
+  },
+  {
+   "id": "S0096",
+   "classId": "C05",
+   "firstName": "ماهان",
+   "lastName": "بهرامي",
+   "status": "active"
+  },
+  {
+   "id": "S0097",
+   "classId": "C05",
+   "firstName": "ديار",
+   "lastName": "پياده",
+   "status": "active"
+  },
+  {
+   "id": "S0098",
+   "classId": "C05",
+   "firstName": "كاميار",
+   "lastName": "حيدري",
+   "status": "active"
+  },
+  {
+   "id": "S0099",
+   "classId": "C05",
+   "firstName": "كيان",
+   "lastName": "خضرآقا",
+   "status": "active"
+  },
+  {
+   "id": "S0100",
+   "classId": "C05",
+   "firstName": "محمد",
+   "lastName": "خضري",
+   "status": "active"
+  },
+  {
+   "id": "S0101",
+   "classId": "C05",
+   "firstName": "محمد",
+   "lastName": "خوش خواهش",
+   "status": "active"
+  },
+  {
+   "id": "S0102",
+   "classId": "C05",
+   "firstName": "آروين",
+   "lastName": "رباني",
+   "status": "active"
+  },
+  {
+   "id": "S0103",
+   "classId": "C05",
+   "firstName": "پارسا",
+   "lastName": "رسوليان",
+   "status": "active"
+  },
+  {
+   "id": "S0104",
+   "classId": "C05",
+   "firstName": "محمد",
+   "lastName": "زبردست",
+   "status": "active"
+  },
+  {
+   "id": "S0105",
+   "classId": "C05",
+   "firstName": "ماهان",
+   "lastName": "زرين",
+   "status": "active"
+  },
+  {
+   "id": "S0106",
+   "classId": "C05",
+   "firstName": "سيدآوات",
+   "lastName": "سيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0107",
+   "classId": "C05",
+   "firstName": "محمد",
+   "lastName": "صوفي",
+   "status": "active"
+  },
+  {
+   "id": "S0108",
+   "classId": "C05",
+   "firstName": "محمد",
+   "lastName": "عبداله روحيزاد",
+   "status": "active"
+  },
+  {
+   "id": "S0109",
+   "classId": "C05",
+   "firstName": "ميلاد",
+   "lastName": "عبداله روحيزاد",
+   "status": "active"
+  },
+  {
+   "id": "S0110",
+   "classId": "C05",
+   "firstName": "محمد",
+   "lastName": "عبداله مير",
+   "status": "active"
+  },
+  {
+   "id": "S0111",
+   "classId": "C05",
+   "firstName": "محمدپيشوا",
+   "lastName": "عبدالهي اصل",
+   "status": "active"
+  },
+  {
+   "id": "S0112",
+   "classId": "C05",
+   "firstName": "متين",
+   "lastName": "علي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0113",
+   "classId": "C05",
+   "firstName": "محمدامين",
+   "lastName": "قاضي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0114",
+   "classId": "C05",
+   "firstName": "سوران",
+   "lastName": "كرده لاچين",
+   "status": "active"
+  },
+  {
+   "id": "S0115",
+   "classId": "C05",
+   "firstName": "كاروان",
+   "lastName": "مام كريمي",
+   "status": "active"
+  },
+  {
+   "id": "S0116",
+   "classId": "C05",
+   "firstName": "كومار",
+   "lastName": "ملك",
+   "status": "active"
+  },
+  {
+   "id": "S0117",
+   "classId": "C05",
+   "firstName": "ساكو",
+   "lastName": "موسي",
+   "status": "active"
+  },
+  {
+   "id": "S0118",
+   "classId": "C05",
+   "firstName": "آرمان",
+   "lastName": "هاشمي",
+   "status": "active"
+  },
+  {
+   "id": "S0119",
+   "classId": "C05",
+   "firstName": "آريان",
+   "lastName": "هنرمند",
+   "status": "active"
+  },
+  {
+   "id": "S0120",
+   "classId": "C06",
+   "firstName": "محمد",
+   "lastName": "آنده",
+   "status": "active"
+  },
+  {
+   "id": "S0121",
+   "classId": "C06",
+   "firstName": "ماردين",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0122",
+   "classId": "C06",
+   "firstName": "ديار",
+   "lastName": "احمدزاده راد",
+   "status": "active"
+  },
+  {
+   "id": "S0123",
+   "classId": "C06",
+   "firstName": "آرژين",
+   "lastName": "اركيان",
+   "status": "active"
+  },
+  {
+   "id": "S0124",
+   "classId": "C06",
+   "firstName": "پويا",
+   "lastName": "اميرفرجي تيزخراب",
+   "status": "active"
+  },
+  {
+   "id": "S0125",
+   "classId": "C06",
+   "firstName": "سيامك",
+   "lastName": "اميني پور",
+   "status": "active"
+  },
+  {
+   "id": "S0126",
+   "classId": "C06",
+   "firstName": "ديار",
+   "lastName": "بذلي",
+   "status": "active"
+  },
+  {
+   "id": "S0127",
+   "classId": "C06",
+   "firstName": "ماردين",
+   "lastName": "پرتوافشان",
+   "status": "active"
+  },
+  {
+   "id": "S0128",
+   "classId": "C06",
+   "firstName": "ريبين",
+   "lastName": "تكيهء",
+   "status": "active"
+  },
+  {
+   "id": "S0129",
+   "classId": "C06",
+   "firstName": "ريباز",
+   "lastName": "حسن وند",
+   "status": "active"
+  },
+  {
+   "id": "S0130",
+   "classId": "C06",
+   "firstName": "بنيامين",
+   "lastName": "حسين پور",
+   "status": "active"
+  },
+  {
+   "id": "S0131",
+   "classId": "C06",
+   "firstName": "كاروان",
+   "lastName": "خودكام",
+   "status": "active"
+  },
+  {
+   "id": "S0132",
+   "classId": "C06",
+   "firstName": "كاويان",
+   "lastName": "رسول پور",
+   "status": "active"
+  },
+  {
+   "id": "S0133",
+   "classId": "C06",
+   "firstName": "آروين",
+   "lastName": "رسولي خوش صفت",
+   "status": "active"
+  },
+  {
+   "id": "S0134",
+   "classId": "C06",
+   "firstName": "فرزاد",
+   "lastName": "رشيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0135",
+   "classId": "C06",
+   "firstName": "ميلاد",
+   "lastName": "صالحي",
+   "status": "active"
+  },
+  {
+   "id": "S0136",
+   "classId": "C06",
+   "firstName": "سيداديب",
+   "lastName": "قريشي آذر",
+   "status": "active"
+  },
+  {
+   "id": "S0137",
+   "classId": "C06",
+   "firstName": "رامين",
+   "lastName": "قلندري پور",
+   "status": "active"
+  },
+  {
+   "id": "S0138",
+   "classId": "C06",
+   "firstName": "آرتين",
+   "lastName": "كردهء",
+   "status": "active"
+  },
+  {
+   "id": "S0139",
+   "classId": "C06",
+   "firstName": "محمد",
+   "lastName": "كريمي اقدم",
+   "status": "active"
+  },
+  {
+   "id": "S0140",
+   "classId": "C06",
+   "firstName": "كومار",
+   "lastName": "محمودي",
+   "status": "active"
+  },
+  {
+   "id": "S0141",
+   "classId": "C06",
+   "firstName": "ياسين",
+   "lastName": "محمودي",
+   "status": "active"
+  },
+  {
+   "id": "S0142",
+   "classId": "C06",
+   "firstName": "بنيامين",
+   "lastName": "معروفي",
+   "status": "active"
+  },
+  {
+   "id": "S0143",
+   "classId": "C06",
+   "firstName": "آريا",
+   "lastName": "مهماندوست",
+   "status": "active"
+  },
+  {
+   "id": "S0144",
+   "classId": "C06",
+   "firstName": "سهيل",
+   "lastName": "ميكائيلي",
+   "status": "active"
+  },
+  {
+   "id": "S0145",
+   "classId": "C07",
+   "firstName": "ماهان",
+   "lastName": "امين عشايري",
+   "status": "active"
+  },
+  {
+   "id": "S0146",
+   "classId": "C07",
+   "firstName": "راميار",
+   "lastName": "بيگي پور",
+   "status": "active"
+  },
+  {
+   "id": "S0147",
+   "classId": "C07",
+   "firstName": "شايان",
+   "lastName": "پيروتي",
+   "status": "active"
+  },
+  {
+   "id": "S0148",
+   "classId": "C07",
+   "firstName": "محسن",
+   "lastName": "پيروتي",
+   "status": "active"
+  },
+  {
+   "id": "S0149",
+   "classId": "C07",
+   "firstName": "سيامك",
+   "lastName": "حاجي ربن",
+   "status": "active"
+  },
+  {
+   "id": "S0150",
+   "classId": "C07",
+   "firstName": "متين",
+   "lastName": "خالندي",
+   "status": "active"
+  },
+  {
+   "id": "S0151",
+   "classId": "C07",
+   "firstName": "امين",
+   "lastName": "خليلي رسول آباد",
+   "status": "active"
+  },
+  {
+   "id": "S0152",
+   "classId": "C07",
+   "firstName": "محمد",
+   "lastName": "دربائي",
+   "status": "active"
+  },
+  {
+   "id": "S0153",
+   "classId": "C07",
+   "firstName": "كاميار",
+   "lastName": "رحمان دوست",
+   "status": "active"
+  },
+  {
+   "id": "S0154",
+   "classId": "C07",
+   "firstName": "محسن",
+   "lastName": "رحمان زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0155",
+   "classId": "C07",
+   "firstName": "نيما",
+   "lastName": "رسول زاده اگريقاش",
+   "status": "active"
+  },
+  {
+   "id": "S0156",
+   "classId": "C07",
+   "firstName": "ماهان",
+   "lastName": "رسولي ارشد",
+   "status": "active"
+  },
+  {
+   "id": "S0157",
+   "classId": "C07",
+   "firstName": "آريان",
+   "lastName": "روزگرد",
+   "status": "active"
+  },
+  {
+   "id": "S0158",
+   "classId": "C07",
+   "firstName": "محمد",
+   "lastName": "رهبان",
+   "status": "active"
+  },
+  {
+   "id": "S0159",
+   "classId": "C07",
+   "firstName": "كيان",
+   "lastName": "شيخ عبداله",
+   "status": "active"
+  },
+  {
+   "id": "S0160",
+   "classId": "C07",
+   "firstName": "مازيار",
+   "lastName": "شيوراك",
+   "status": "active"
+  },
+  {
+   "id": "S0161",
+   "classId": "C07",
+   "firstName": "رحمان",
+   "lastName": "صالحي",
+   "status": "active"
+  },
+  {
+   "id": "S0162",
+   "classId": "C07",
+   "firstName": "زكريا",
+   "lastName": "عزيزپور",
+   "status": "active"
+  },
+  {
+   "id": "S0163",
+   "classId": "C07",
+   "firstName": "آريا",
+   "lastName": "عزيزي",
+   "status": "active"
+  },
+  {
+   "id": "S0164",
+   "classId": "C07",
+   "firstName": "شايان",
+   "lastName": "فيض الله بيگي",
+   "status": "active"
+  },
+  {
+   "id": "S0165",
+   "classId": "C07",
+   "firstName": "سيدهاوري",
+   "lastName": "كريم نژاد",
+   "status": "active"
+  },
+  {
+   "id": "S0166",
+   "classId": "C07",
+   "firstName": "محمدمتين",
+   "lastName": "مبذوله",
+   "status": "active"
+  },
+  {
+   "id": "S0167",
+   "classId": "C07",
+   "firstName": "محمد",
+   "lastName": "محبوبي",
+   "status": "active"
+  },
+  {
+   "id": "S0168",
+   "classId": "C07",
+   "firstName": "كيانوش",
+   "lastName": "مصطفائي",
+   "status": "active"
+  },
+  {
+   "id": "S0169",
+   "classId": "C07",
+   "firstName": "سامان",
+   "lastName": "ملك",
+   "status": "active"
+  },
+  {
+   "id": "S0170",
+   "classId": "C07",
+   "firstName": "بنيامين",
+   "lastName": "مولودي",
+   "status": "active"
+  },
+  {
+   "id": "S0171",
+   "classId": "C08",
+   "firstName": "ماهان",
+   "lastName": "آذري",
+   "status": "active"
+  },
+  {
+   "id": "S0172",
+   "classId": "C08",
+   "firstName": "كسري",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0173",
+   "classId": "C08",
+   "firstName": "آريان",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0174",
+   "classId": "C08",
+   "firstName": "عبدالرحمان",
+   "lastName": "بهمني",
+   "status": "active"
+  },
+  {
+   "id": "S0175",
+   "classId": "C08",
+   "firstName": "مبين",
+   "lastName": "خضري",
+   "status": "active"
+  },
+  {
+   "id": "S0176",
+   "classId": "C08",
+   "firstName": "سردار",
+   "lastName": "خضري",
+   "status": "active"
+  },
+  {
+   "id": "S0177",
+   "classId": "C08",
+   "firstName": "آرتين",
+   "lastName": "راهي",
+   "status": "active"
+  },
+  {
+   "id": "S0178",
+   "classId": "C08",
+   "firstName": "ماديار",
+   "lastName": "رشيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0179",
+   "classId": "C08",
+   "firstName": "آرمان",
+   "lastName": "رمضان پور",
+   "status": "active"
+  },
+  {
+   "id": "S0180",
+   "classId": "C08",
+   "firstName": "كومار",
+   "lastName": "سلطان تلخاب",
+   "status": "active"
+  },
+  {
+   "id": "S0181",
+   "classId": "C08",
+   "firstName": "ماردين",
+   "lastName": "سليمي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0182",
+   "classId": "C08",
+   "firstName": "سينا",
+   "lastName": "شريفي فرد",
+   "status": "active"
+  },
+  {
+   "id": "S0183",
+   "classId": "C08",
+   "firstName": "شهرام",
+   "lastName": "عباسي",
+   "status": "active"
+  },
+  {
+   "id": "S0184",
+   "classId": "C08",
+   "firstName": "سامرند",
+   "lastName": "عبداله زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0185",
+   "classId": "C08",
+   "firstName": "ماردين",
+   "lastName": "عبداله زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0186",
+   "classId": "C08",
+   "firstName": "ايمان",
+   "lastName": "عزيزمرادي",
+   "status": "active"
+  },
+  {
+   "id": "S0187",
+   "classId": "C08",
+   "firstName": "كيان",
+   "lastName": "عزيزي",
+   "status": "active"
+  },
+  {
+   "id": "S0188",
+   "classId": "C08",
+   "firstName": "كيان",
+   "lastName": "قوام نژاد",
+   "status": "active"
+  },
+  {
+   "id": "S0189",
+   "classId": "C08",
+   "firstName": "مبين",
+   "lastName": "كدخداقادر",
+   "status": "active"
+  },
+  {
+   "id": "S0190",
+   "classId": "C08",
+   "firstName": "شروين",
+   "lastName": "كريمي نسب",
+   "status": "active"
+  },
+  {
+   "id": "S0191",
+   "classId": "C08",
+   "firstName": "ساميار",
+   "lastName": "گواهيان",
+   "status": "active"
+  },
+  {
+   "id": "S0192",
+   "classId": "C08",
+   "firstName": "ايمان",
+   "lastName": "لاوا",
+   "status": "active"
+  },
+  {
+   "id": "S0193",
+   "classId": "C08",
+   "firstName": "ريبين",
+   "lastName": "مصطفي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0194",
+   "classId": "C08",
+   "firstName": "سامان",
+   "lastName": "مهران فر",
+   "status": "active"
+  },
+  {
+   "id": "S0195",
+   "classId": "C09",
+   "firstName": "مبين",
+   "lastName": "اسماعيلي",
+   "status": "active"
+  },
+  {
+   "id": "S0196",
+   "classId": "C09",
+   "firstName": "سرور",
+   "lastName": "پرويزنيا",
+   "status": "active"
+  },
+  {
+   "id": "S0197",
+   "classId": "C09",
+   "firstName": "سيدديار",
+   "lastName": "چاپاني",
+   "status": "active"
+  },
+  {
+   "id": "S0198",
+   "classId": "C09",
+   "firstName": "حسين",
+   "lastName": "زارعي",
+   "status": "active"
+  },
+  {
+   "id": "S0199",
+   "classId": "C09",
+   "firstName": "كيان",
+   "lastName": "سيده",
+   "status": "active"
+  },
+  {
+   "id": "S0200",
+   "classId": "C09",
+   "firstName": "احسان",
+   "lastName": "شاير",
+   "status": "active"
+  },
+  {
+   "id": "S0201",
+   "classId": "C09",
+   "firstName": "ماردين",
+   "lastName": "غريب",
+   "status": "active"
+  },
+  {
+   "id": "S0202",
+   "classId": "C09",
+   "firstName": "رادين",
+   "lastName": "فتوت",
+   "status": "active"
+  },
+  {
+   "id": "S0203",
+   "classId": "C09",
+   "firstName": "رهام",
+   "lastName": "كاكيلي",
+   "status": "active"
+  },
+  {
+   "id": "S0204",
+   "classId": "C09",
+   "firstName": "پدرام",
+   "lastName": "موسي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0205",
+   "classId": "C09",
+   "firstName": "بنيامين",
+   "lastName": "موسي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0206",
+   "classId": "C09",
+   "firstName": "كيان",
+   "lastName": "مولودي",
+   "status": "active"
+  },
+  {
+   "id": "S0207",
+   "classId": "C09",
+   "firstName": "دانيال",
+   "lastName": "نادري",
+   "status": "active"
+  },
+  {
+   "id": "S0208",
+   "classId": "C10",
+   "firstName": "آلان",
+   "lastName": "احمدنژاد",
+   "status": "active"
+  },
+  {
+   "id": "S0209",
+   "classId": "C10",
+   "firstName": "محمد",
+   "lastName": "الياسي",
+   "status": "active"
+  },
+  {
+   "id": "S0210",
+   "classId": "C10",
+   "firstName": "ميران",
+   "lastName": "بايزيدي آذر",
+   "status": "active"
+  },
+  {
+   "id": "S0211",
+   "classId": "C10",
+   "firstName": "شاهين",
+   "lastName": "راه نشين",
+   "status": "active"
+  },
+  {
+   "id": "S0212",
+   "classId": "C10",
+   "firstName": "محمدمبين",
+   "lastName": "رسولي",
+   "status": "active"
+  },
+  {
+   "id": "S0213",
+   "classId": "C10",
+   "firstName": "هيمن",
+   "lastName": "شريفي",
+   "status": "active"
+  },
+  {
+   "id": "S0214",
+   "classId": "C10",
+   "firstName": "آمانج",
+   "lastName": "عبدالهي",
+   "status": "active"
+  },
+  {
+   "id": "S0215",
+   "classId": "C10",
+   "firstName": "رامين",
+   "lastName": "كسمايي راد",
+   "status": "active"
+  },
+  {
+   "id": "S0216",
+   "classId": "C10",
+   "firstName": "آريان",
+   "lastName": "ماوتي",
+   "status": "active"
+  },
+  {
+   "id": "S0217",
+   "classId": "C10",
+   "firstName": "آرمين",
+   "lastName": "محمودپورآلاني",
+   "status": "active"
+  },
+  {
+   "id": "S0218",
+   "classId": "C10",
+   "firstName": "كيا",
+   "lastName": "محمودي عربي",
+   "status": "active"
+  },
+  {
+   "id": "S0219",
+   "classId": "C10",
+   "firstName": "كارو",
+   "lastName": "مرادي ربط",
+   "status": "active"
+  },
+  {
+   "id": "S0220",
+   "classId": "C11",
+   "firstName": "اشكان",
+   "lastName": "اشكوتي",
+   "status": "active"
+  },
+  {
+   "id": "S0221",
+   "classId": "C11",
+   "firstName": "آرتين",
+   "lastName": "اصغري هوسين",
+   "status": "active"
+  },
+  {
+   "id": "S0222",
+   "classId": "C11",
+   "firstName": "ايليا",
+   "lastName": "اللهوردي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0223",
+   "classId": "C11",
+   "firstName": "فرزاد",
+   "lastName": "الياسي",
+   "status": "active"
+  },
+  {
+   "id": "S0224",
+   "classId": "C11",
+   "firstName": "آژوان",
+   "lastName": "توحيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0225",
+   "classId": "C11",
+   "firstName": "ماهان",
+   "lastName": "جهانگيرمملو",
+   "status": "active"
+  },
+  {
+   "id": "S0226",
+   "classId": "C11",
+   "firstName": "نيما",
+   "lastName": "حيدري فر",
+   "status": "active"
+  },
+  {
+   "id": "S0227",
+   "classId": "C11",
+   "firstName": "كارو",
+   "lastName": "خالدليلي",
+   "status": "active"
+  },
+  {
+   "id": "S0228",
+   "classId": "C11",
+   "firstName": "مسعود",
+   "lastName": "خالدي",
+   "status": "active"
+  },
+  {
+   "id": "S0229",
+   "classId": "C11",
+   "firstName": "سيروان",
+   "lastName": "خديري پور",
+   "status": "active"
+  },
+  {
+   "id": "S0230",
+   "classId": "C11",
+   "firstName": "كيان",
+   "lastName": "خسروي",
+   "status": "active"
+  },
+  {
+   "id": "S0231",
+   "classId": "C11",
+   "firstName": "پويا",
+   "lastName": "داناپور",
+   "status": "active"
+  },
+  {
+   "id": "S0232",
+   "classId": "C11",
+   "firstName": "ماهان",
+   "lastName": "درويشي",
+   "status": "active"
+  },
+  {
+   "id": "S0233",
+   "classId": "C11",
+   "firstName": "آريا",
+   "lastName": "سلطاني",
+   "status": "active"
+  },
+  {
+   "id": "S0234",
+   "classId": "C11",
+   "firstName": "سهند",
+   "lastName": "شريفي",
+   "status": "active"
+  },
+  {
+   "id": "S0235",
+   "classId": "C11",
+   "firstName": "حسام",
+   "lastName": "عزيزي حيران",
+   "status": "active"
+  },
+  {
+   "id": "S0236",
+   "classId": "C11",
+   "firstName": "شاهين",
+   "lastName": "عزيزي خرسند",
+   "status": "active"
+  },
+  {
+   "id": "S0237",
+   "classId": "C11",
+   "firstName": "ديار",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0238",
+   "classId": "C11",
+   "firstName": "فرزاد",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0239",
+   "classId": "C11",
+   "firstName": "ماردين",
+   "lastName": "محمودي",
+   "status": "active"
+  },
+  {
+   "id": "S0240",
+   "classId": "C11",
+   "firstName": "نويد",
+   "lastName": "ملاپور",
+   "status": "active"
+  },
+  {
+   "id": "S0241",
+   "classId": "C11",
+   "firstName": "ساسان",
+   "lastName": "ميثمي",
+   "status": "active"
+  },
+  {
+   "id": "S0242",
+   "classId": "C11",
+   "firstName": "علي",
+   "lastName": "نصرتي راد",
+   "status": "active"
+  },
+  {
+   "id": "S0243",
+   "classId": "C11",
+   "firstName": "محمداحسان",
+   "lastName": "يادگاري",
+   "status": "active"
+  },
+  {
+   "id": "S0244",
+   "classId": "C12",
+   "firstName": "احسان",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0245",
+   "classId": "C12",
+   "firstName": "آريا",
+   "lastName": "ابهري",
+   "status": "active"
+  },
+  {
+   "id": "S0246",
+   "classId": "C12",
+   "firstName": "امير",
+   "lastName": "اميني",
+   "status": "active"
+  },
+  {
+   "id": "S0247",
+   "classId": "C12",
+   "firstName": "رامان",
+   "lastName": "ايافت",
+   "status": "active"
+  },
+  {
+   "id": "S0248",
+   "classId": "C12",
+   "firstName": "محمد",
+   "lastName": "ايافت",
+   "status": "active"
+  },
+  {
+   "id": "S0249",
+   "classId": "C12",
+   "firstName": "رامان",
+   "lastName": "چاوشيني",
+   "status": "active"
+  },
+  {
+   "id": "S0250",
+   "classId": "C12",
+   "firstName": "كاويار",
+   "lastName": "خسروي",
+   "status": "active"
+  },
+  {
+   "id": "S0251",
+   "classId": "C12",
+   "firstName": "متين",
+   "lastName": "رحيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0252",
+   "classId": "C12",
+   "firstName": "سعيد",
+   "lastName": "سعيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0253",
+   "classId": "C12",
+   "firstName": "ماهر",
+   "lastName": "شاهي",
+   "status": "active"
+  },
+  {
+   "id": "S0254",
+   "classId": "C12",
+   "firstName": "سامي",
+   "lastName": "شريفي",
+   "status": "active"
+  },
+  {
+   "id": "S0255",
+   "classId": "C12",
+   "firstName": "آرتين",
+   "lastName": "شوقي",
+   "status": "active"
+  },
+  {
+   "id": "S0256",
+   "classId": "C12",
+   "firstName": "فرزان",
+   "lastName": "صفائي",
+   "status": "active"
+  },
+  {
+   "id": "S0257",
+   "classId": "C12",
+   "firstName": "كيان",
+   "lastName": "فلاح پور",
+   "status": "active"
+  },
+  {
+   "id": "S0258",
+   "classId": "C12",
+   "firstName": "سروش",
+   "lastName": "قاقم",
+   "status": "active"
+  },
+  {
+   "id": "S0259",
+   "classId": "C12",
+   "firstName": "احسان",
+   "lastName": "كريمي",
+   "status": "active"
+  },
+  {
+   "id": "S0260",
+   "classId": "C12",
+   "firstName": "اسماعيل",
+   "lastName": "مام عثماني گابازله",
+   "status": "active"
+  },
+  {
+   "id": "S0261",
+   "classId": "C12",
+   "firstName": "كيان",
+   "lastName": "محمدشيخه",
+   "status": "active"
+  },
+  {
+   "id": "S0262",
+   "classId": "C12",
+   "firstName": "آرتين",
+   "lastName": "معروفي",
+   "status": "active"
+  },
+  {
+   "id": "S0263",
+   "classId": "C12",
+   "firstName": "سروش",
+   "lastName": "مهرپاك",
+   "status": "active"
+  },
+  {
+   "id": "S0264",
+   "classId": "C13",
+   "firstName": "كامران",
+   "lastName": "ابراهيم زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0265",
+   "classId": "C13",
+   "firstName": "رادين",
+   "lastName": "احمدزاده",
+   "status": "active"
+  },
+  {
+   "id": "S0266",
+   "classId": "C13",
+   "firstName": "ماردين",
+   "lastName": "اسفرم",
+   "status": "active"
+  },
+  {
+   "id": "S0267",
+   "classId": "C13",
+   "firstName": "محمد",
+   "lastName": "اصل صالحي",
+   "status": "active"
+  },
+  {
+   "id": "S0268",
+   "classId": "C13",
+   "firstName": "ابوالفضل",
+   "lastName": "امامي قره بلاغ",
+   "status": "active"
+  },
+  {
+   "id": "S0269",
+   "classId": "C13",
+   "firstName": "پرهام",
+   "lastName": "برجاسي",
+   "status": "active"
+  },
+  {
+   "id": "S0270",
+   "classId": "C13",
+   "firstName": "مبين",
+   "lastName": "بهرامي",
+   "status": "active"
+  },
+  {
+   "id": "S0271",
+   "classId": "C13",
+   "firstName": "ساني",
+   "lastName": "حسين زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0272",
+   "classId": "C13",
+   "firstName": "سوشيان",
+   "lastName": "حوري نژاد",
+   "status": "active"
+  },
+  {
+   "id": "S0273",
+   "classId": "C13",
+   "firstName": "سيدمتين",
+   "lastName": "دفتر",
+   "status": "active"
+  },
+  {
+   "id": "S0274",
+   "classId": "C13",
+   "firstName": "محمد",
+   "lastName": "رحمن زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0275",
+   "classId": "C13",
+   "firstName": "ديار",
+   "lastName": "رشيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0276",
+   "classId": "C13",
+   "firstName": "كومار",
+   "lastName": "ره گري",
+   "status": "active"
+  },
+  {
+   "id": "S0277",
+   "classId": "C13",
+   "firstName": "دانيال",
+   "lastName": "سبحاني منبر",
+   "status": "active"
+  },
+  {
+   "id": "S0278",
+   "classId": "C13",
+   "firstName": "مبين",
+   "lastName": "شاهمحمدي منبر",
+   "status": "active"
+  },
+  {
+   "id": "S0279",
+   "classId": "C13",
+   "firstName": "آريان",
+   "lastName": "شيربگي",
+   "status": "active"
+  },
+  {
+   "id": "S0280",
+   "classId": "C13",
+   "firstName": "محمدپيشوا",
+   "lastName": "علي خاني",
+   "status": "active"
+  },
+  {
+   "id": "S0281",
+   "classId": "C13",
+   "firstName": "امين",
+   "lastName": "قهرماني",
+   "status": "active"
+  },
+  {
+   "id": "S0282",
+   "classId": "C13",
+   "firstName": "بنيامين",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0283",
+   "classId": "C13",
+   "firstName": "ماهان",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0284",
+   "classId": "C13",
+   "firstName": "زانا",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0285",
+   "classId": "C13",
+   "firstName": "آروين",
+   "lastName": "محمودي",
+   "status": "active"
+  },
+  {
+   "id": "S0286",
+   "classId": "C13",
+   "firstName": "مبين",
+   "lastName": "مصطفي پور",
+   "status": "active"
+  },
+  {
+   "id": "S0287",
+   "classId": "C13",
+   "firstName": "محمد",
+   "lastName": "مولودي",
+   "status": "active"
+  },
+  {
+   "id": "S0288",
+   "classId": "C13",
+   "firstName": "متين",
+   "lastName": "مولودي",
+   "status": "active"
+  },
+  {
+   "id": "S0289",
+   "classId": "C13",
+   "firstName": "كومار",
+   "lastName": "نوجوان",
+   "status": "active"
+  },
+  {
+   "id": "S0290",
+   "classId": "C13",
+   "firstName": "آژوان",
+   "lastName": "يوسف پور",
+   "status": "active"
+  },
+  {
+   "id": "S0291",
+   "classId": "C14",
+   "firstName": "امين",
+   "lastName": "احسني",
+   "status": "active"
+  },
+  {
+   "id": "S0292",
+   "classId": "C14",
+   "firstName": "كسرا",
+   "lastName": "استادي",
+   "status": "active"
+  },
+  {
+   "id": "S0293",
+   "classId": "C14",
+   "firstName": "فؤاد",
+   "lastName": "باليده",
+   "status": "active"
+  },
+  {
+   "id": "S0294",
+   "classId": "C14",
+   "firstName": "ريبين",
+   "lastName": "برزنجي",
+   "status": "active"
+  },
+  {
+   "id": "S0295",
+   "classId": "C14",
+   "firstName": "محمد",
+   "lastName": "پیروتی",
+   "status": "active"
+  },
+  {
+   "id": "S0296",
+   "classId": "C14",
+   "firstName": "كاوان",
+   "lastName": "جدائي",
+   "status": "active"
+  },
+  {
+   "id": "S0297",
+   "classId": "C14",
+   "firstName": "آرمان",
+   "lastName": "حمزه زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0298",
+   "classId": "C14",
+   "firstName": "ساسان",
+   "lastName": "خسروي",
+   "status": "active"
+  },
+  {
+   "id": "S0299",
+   "classId": "C14",
+   "firstName": "سينا",
+   "lastName": "رحماني وند",
+   "status": "active"
+  },
+  {
+   "id": "S0300",
+   "classId": "C14",
+   "firstName": "ژيكان",
+   "lastName": "رزميان",
+   "status": "active"
+  },
+  {
+   "id": "S0301",
+   "classId": "C14",
+   "firstName": "محمد",
+   "lastName": "رسولي",
+   "status": "active"
+  },
+  {
+   "id": "S0302",
+   "classId": "C14",
+   "firstName": "سبحان",
+   "lastName": "رش",
+   "status": "active"
+  },
+  {
+   "id": "S0303",
+   "classId": "C14",
+   "firstName": "محمد",
+   "lastName": "زارعي",
+   "status": "active"
+  },
+  {
+   "id": "S0304",
+   "classId": "C14",
+   "firstName": "هاوري",
+   "lastName": "شريف اقدم",
+   "status": "active"
+  },
+  {
+   "id": "S0305",
+   "classId": "C14",
+   "firstName": "عرفان",
+   "lastName": "شريفي",
+   "status": "active"
+  },
+  {
+   "id": "S0306",
+   "classId": "C14",
+   "firstName": "محمد",
+   "lastName": "عبداله زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0307",
+   "classId": "C14",
+   "firstName": "آلان",
+   "lastName": "عثماني",
+   "status": "active"
+  },
+  {
+   "id": "S0308",
+   "classId": "C14",
+   "firstName": "بنيامين",
+   "lastName": "قادرزاده",
+   "status": "active"
+  },
+  {
+   "id": "S0309",
+   "classId": "C14",
+   "firstName": "هرمان",
+   "lastName": "قادرزاده",
+   "status": "active"
+  },
+  {
+   "id": "S0310",
+   "classId": "C14",
+   "firstName": "دانيال",
+   "lastName": "قائمي",
+   "status": "active"
+  },
+  {
+   "id": "S0311",
+   "classId": "C14",
+   "firstName": "آريا",
+   "lastName": "كرده",
+   "status": "active"
+  },
+  {
+   "id": "S0312",
+   "classId": "C14",
+   "firstName": "امير",
+   "lastName": "كريمي",
+   "status": "active"
+  },
+  {
+   "id": "S0313",
+   "classId": "C14",
+   "firstName": "ماني",
+   "lastName": "محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0314",
+   "classId": "C14",
+   "firstName": "آروين",
+   "lastName": "محمدي اقدم",
+   "status": "active"
+  },
+  {
+   "id": "S0315",
+   "classId": "C14",
+   "firstName": "ماردين",
+   "lastName": "مددي",
+   "status": "active"
+  },
+  {
+   "id": "S0316",
+   "classId": "C14",
+   "firstName": "ژيار",
+   "lastName": "منصوري",
+   "status": "active"
+  },
+  {
+   "id": "S0317",
+   "classId": "C14",
+   "firstName": "آريان",
+   "lastName": "نبي زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0318",
+   "classId": "C14",
+   "firstName": "هومن",
+   "lastName": "نيك روش",
+   "status": "active"
+  },
+  {
+   "id": "S0319",
+   "classId": "C14",
+   "firstName": "ميلاد",
+   "lastName": "نيك نام",
+   "status": "active"
+  },
+  {
+   "id": "S0320",
+   "classId": "C15",
+   "firstName": "ياسين",
+   "lastName": "احمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0321",
+   "classId": "C15",
+   "firstName": "سينا",
+   "lastName": "برونوس",
+   "status": "active"
+  },
+  {
+   "id": "S0322",
+   "classId": "C15",
+   "firstName": "كسري",
+   "lastName": "بوداقي",
+   "status": "active"
+  },
+  {
+   "id": "S0323",
+   "classId": "C15",
+   "firstName": "محمد",
+   "lastName": "پورديان",
+   "status": "active"
+  },
+  {
+   "id": "S0324",
+   "classId": "C15",
+   "firstName": "پيمان",
+   "lastName": "تجربي",
+   "status": "active"
+  },
+  {
+   "id": "S0325",
+   "classId": "C15",
+   "firstName": "كيان",
+   "lastName": "چالشي",
+   "status": "active"
+  },
+  {
+   "id": "S0326",
+   "classId": "C15",
+   "firstName": "رامين",
+   "lastName": "خدمتكاري",
+   "status": "active"
+  },
+  {
+   "id": "S0327",
+   "classId": "C15",
+   "firstName": "آرين",
+   "lastName": "رسول زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0328",
+   "classId": "C15",
+   "firstName": "امين",
+   "lastName": "رسولي",
+   "status": "active"
+  },
+  {
+   "id": "S0329",
+   "classId": "C15",
+   "firstName": "انس",
+   "lastName": "شجاعيان",
+   "status": "active"
+  },
+  {
+   "id": "S0330",
+   "classId": "C15",
+   "firstName": "محمدشريف",
+   "lastName": "شريفي",
+   "status": "active"
+  },
+  {
+   "id": "S0331",
+   "classId": "C15",
+   "firstName": "آرژين",
+   "lastName": "شيخ آقايي",
+   "status": "active"
+  },
+  {
+   "id": "S0332",
+   "classId": "C15",
+   "firstName": "اسماعيل",
+   "lastName": "عبدالله زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0333",
+   "classId": "C15",
+   "firstName": "آرمين",
+   "lastName": "عبدالهي",
+   "status": "active"
+  },
+  {
+   "id": "S0334",
+   "classId": "C15",
+   "firstName": "پارسا",
+   "lastName": "عزيزي",
+   "status": "active"
+  },
+  {
+   "id": "S0335",
+   "classId": "C15",
+   "firstName": "آتيلا",
+   "lastName": "فارسي",
+   "status": "active"
+  },
+  {
+   "id": "S0336",
+   "classId": "C15",
+   "firstName": "برزين",
+   "lastName": "كريمي",
+   "status": "active"
+  },
+  {
+   "id": "S0337",
+   "classId": "C15",
+   "firstName": "ماردين",
+   "lastName": "محمدپور",
+   "status": "active"
+  },
+  {
+   "id": "S0338",
+   "classId": "C15",
+   "firstName": "شايان",
+   "lastName": "محمودزاده",
+   "status": "active"
+  },
+  {
+   "id": "S0339",
+   "classId": "C15",
+   "firstName": "بهنام",
+   "lastName": "مهران نيا",
+   "status": "active"
+  },
+  {
+   "id": "S0340",
+   "classId": "C15",
+   "firstName": "ريبين",
+   "lastName": "نورمحمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0341",
+   "classId": "C15",
+   "firstName": "پارسا",
+   "lastName": "وظيفهءعزيزي سالاري",
+   "status": "active"
+  },
+  {
+   "id": "S0342",
+   "classId": "C16",
+   "firstName": "پارسا",
+   "lastName": "ابراهيم حمزه",
+   "status": "active"
+  },
+  {
+   "id": "S0343",
+   "classId": "C16",
+   "firstName": "دانيال",
+   "lastName": "اميني",
+   "status": "active"
+  },
+  {
+   "id": "S0344",
+   "classId": "C16",
+   "firstName": "آرتين",
+   "lastName": "پرور",
+   "status": "active"
+  },
+  {
+   "id": "S0345",
+   "classId": "C16",
+   "firstName": "ياشار",
+   "lastName": "ترابي",
+   "status": "active"
+  },
+  {
+   "id": "S0346",
+   "classId": "C16",
+   "firstName": "ماردين",
+   "lastName": "خالي قادري",
+   "status": "active"
+  },
+  {
+   "id": "S0347",
+   "classId": "C16",
+   "firstName": "ساميار",
+   "lastName": "رجبي حاجي خوش",
+   "status": "active"
+  },
+  {
+   "id": "S0348",
+   "classId": "C16",
+   "firstName": "كارا",
+   "lastName": "سيدمحمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0349",
+   "classId": "C16",
+   "firstName": "مبين",
+   "lastName": "شيخه",
+   "status": "active"
+  },
+  {
+   "id": "S0350",
+   "classId": "C16",
+   "firstName": "كاميار",
+   "lastName": "شيرزاد",
+   "status": "active"
+  },
+  {
+   "id": "S0351",
+   "classId": "C16",
+   "firstName": "ماديار",
+   "lastName": "عبداله سور",
+   "status": "active"
+  },
+  {
+   "id": "S0352",
+   "classId": "C16",
+   "firstName": "شايان",
+   "lastName": "علي پور",
+   "status": "active"
+  },
+  {
+   "id": "S0353",
+   "classId": "C16",
+   "firstName": "ماني",
+   "lastName": "فرهمند",
+   "status": "active"
+  },
+  {
+   "id": "S0354",
+   "classId": "C16",
+   "firstName": "روژمان",
+   "lastName": "قوامي كبير",
+   "status": "active"
+  },
+  {
+   "id": "S0355",
+   "classId": "C16",
+   "firstName": "مبين",
+   "lastName": "كهربائي",
+   "status": "active"
+  },
+  {
+   "id": "S0356",
+   "classId": "C16",
+   "firstName": "نصير",
+   "lastName": "گله دار",
+   "status": "active"
+  },
+  {
+   "id": "S0357",
+   "classId": "C16",
+   "firstName": "متين",
+   "lastName": "مام گله",
+   "status": "active"
+  },
+  {
+   "id": "S0358",
+   "classId": "C16",
+   "firstName": "مبين",
+   "lastName": "مرشه",
+   "status": "active"
+  },
+  {
+   "id": "S0359",
+   "classId": "C16",
+   "firstName": "محمد",
+   "lastName": "معروفي",
+   "status": "active"
+  },
+  {
+   "id": "S0360",
+   "classId": "C17",
+   "firstName": "كاميار",
+   "lastName": "ابراهيم زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0361",
+   "classId": "C17",
+   "firstName": "ماهان",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0362",
+   "classId": "C17",
+   "firstName": "محمدمبين",
+   "lastName": "اسلامي",
+   "status": "active"
+  },
+  {
+   "id": "S0363",
+   "classId": "C17",
+   "firstName": "ريبين",
+   "lastName": "امامي اقدم",
+   "status": "active"
+  },
+  {
+   "id": "S0364",
+   "classId": "C17",
+   "firstName": "محمد",
+   "lastName": "ايزدپناه",
+   "status": "active"
+  },
+  {
+   "id": "S0365",
+   "classId": "C17",
+   "firstName": "محمدامين",
+   "lastName": "ايماني",
+   "status": "active"
+  },
+  {
+   "id": "S0366",
+   "classId": "C17",
+   "firstName": "شهاب",
+   "lastName": "بايزيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0367",
+   "classId": "C17",
+   "firstName": "سلمان",
+   "lastName": "بايزيدي",
+   "status": "active"
+  },
+  {
+   "id": "S0368",
+   "classId": "C17",
+   "firstName": "ژيار",
+   "lastName": "برزنجي",
+   "status": "active"
+  },
+  {
+   "id": "S0369",
+   "classId": "C17",
+   "firstName": "هاوري",
+   "lastName": "پرويني",
+   "status": "active"
+  },
+  {
+   "id": "S0370",
+   "classId": "C17",
+   "firstName": "سيدآلان",
+   "lastName": "پيرشاهو",
+   "status": "active"
+  },
+  {
+   "id": "S0371",
+   "classId": "C17",
+   "firstName": "آمانج",
+   "lastName": "پيروتي",
+   "status": "active"
+  },
+  {
+   "id": "S0372",
+   "classId": "C17",
+   "firstName": "رامان",
+   "lastName": "جبرائيلي",
+   "status": "active"
+  },
+  {
+   "id": "S0373",
+   "classId": "C17",
+   "firstName": "رامان",
+   "lastName": "حسن پور",
+   "status": "active"
+  },
+  {
+   "id": "S0374",
+   "classId": "C17",
+   "firstName": "سينا",
+   "lastName": "حسين زاده",
+   "status": "active"
+  },
+  {
+   "id": "S0375",
+   "classId": "C17",
+   "firstName": "محمد",
+   "lastName": "حكمت آرا",
+   "status": "active"
+  },
+  {
+   "id": "S0376",
+   "classId": "C17",
+   "firstName": "فخرالدين",
+   "lastName": "خضرپوري مقدم",
+   "status": "active"
+  },
+  {
+   "id": "S0377",
+   "classId": "C17",
+   "firstName": "آروين",
+   "lastName": "رمضاني",
+   "status": "active"
+  },
+  {
+   "id": "S0378",
+   "classId": "C17",
+   "firstName": "ماهان",
+   "lastName": "رودابه",
+   "status": "active"
+  },
+  {
+   "id": "S0379",
+   "classId": "C17",
+   "firstName": "روژمان",
+   "lastName": "سهرابي",
+   "status": "active"
+  },
+  {
+   "id": "S0380",
+   "classId": "C17",
+   "firstName": "سانيار",
+   "lastName": "سهرابي راد",
+   "status": "active"
+  },
+  {
+   "id": "S0381",
+   "classId": "C17",
+   "firstName": "اميرمهدي",
+   "lastName": "عبادي خليفه كندي",
+   "status": "active"
+  },
+  {
+   "id": "S0382",
+   "classId": "C17",
+   "firstName": "ساتيار",
+   "lastName": "عبدالي",
+   "status": "active"
+  },
+  {
+   "id": "S0383",
+   "classId": "C17",
+   "firstName": "كارو",
+   "lastName": "عظيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0384",
+   "classId": "C17",
+   "firstName": "امير",
+   "lastName": "محمدي تجرق",
+   "status": "active"
+  },
+  {
+   "id": "S0385",
+   "classId": "C17",
+   "firstName": "كاوان",
+   "lastName": "مرجاني",
+   "status": "active"
+  },
+  {
+   "id": "S0386",
+   "classId": "C17",
+   "firstName": "آرتين",
+   "lastName": "مروتي",
+   "status": "active"
+  },
+  {
+   "id": "S0387",
+   "classId": "C17",
+   "firstName": "متين",
+   "lastName": "مصطفي",
+   "status": "active"
+  },
+  {
+   "id": "S0388",
+   "classId": "C17",
+   "firstName": "مهران",
+   "lastName": "مهماندوست",
+   "status": "active"
+  },
+  {
+   "id": "S0389",
+   "classId": "C17",
+   "firstName": "رامين",
+   "lastName": "ميكائيلي",
+   "status": "active"
+  },
+  {
+   "id": "S0390",
+   "classId": "C18",
+   "firstName": "مجيد",
+   "lastName": "ابراهيمي",
+   "status": "active"
+  },
+  {
+   "id": "S0391",
+   "classId": "C18",
+   "firstName": "ماهان",
+   "lastName": "ابراهيمي اصل",
+   "status": "active"
+  },
+  {
+   "id": "S0392",
+   "classId": "C18",
+   "firstName": "آريان",
+   "lastName": "احمدخاني",
+   "status": "active"
+  },
+  {
+   "id": "S0393",
+   "classId": "C18",
+   "firstName": "سروش",
+   "lastName": "احمدرش",
+   "status": "active"
+  },
+  {
+   "id": "S0394",
+   "classId": "C18",
+   "firstName": "كاميار",
+   "lastName": "اسماعيلي نيا",
+   "status": "active"
+  },
+  {
+   "id": "S0395",
+   "classId": "C18",
+   "firstName": "مبين",
+   "lastName": "بهره مند",
+   "status": "active"
+  },
+  {
+   "id": "S0396",
+   "classId": "C18",
+   "firstName": "دانا",
+   "lastName": "پاخيره",
+   "status": "active"
+  },
+  {
+   "id": "S0397",
+   "classId": "C18",
+   "firstName": "ماهان",
+   "lastName": "پارسا",
+   "status": "active"
+  },
+  {
+   "id": "S0398",
+   "classId": "C18",
+   "firstName": "ماني",
+   "lastName": "پيروتي",
+   "status": "active"
+  },
+  {
+   "id": "S0399",
+   "classId": "C18",
+   "firstName": "پژمان",
+   "lastName": "چوپاني",
+   "status": "active"
+  },
+  {
+   "id": "S0400",
+   "classId": "C18",
+   "firstName": "راميار",
+   "lastName": "چوكل",
+   "status": "active"
+  },
+  {
+   "id": "S0401",
+   "classId": "C18",
+   "firstName": "اردلان",
+   "lastName": "حاجي محمدي",
+   "status": "active"
+  },
+  {
+   "id": "S0402",
+   "classId": "C18",
+   "firstName": "ميران",
+   "lastName": "حسن پور",
+   "status": "active"
+  },
+  {
+   "id": "S0403",
+   "classId": "C18",
+   "firstName": "ميلان",
+   "lastName": "حسين پور",
+   "status": "active"
+  },
+  {
+   "id": "S0404",
+   "classId": "C18",
+   "firstName": "داوود",
+   "lastName": "رحمان پور",
+   "status": "active"
+  },
+  {
+   "id": "S0405",
+   "classId": "C18",
+   "firstName": "كيان",
+   "lastName": "رحماني",
+   "status": "active"
+  },
+  {
+   "id": "S0406",
+   "classId": "C18",
+   "firstName": "آرتين",
+   "lastName": "زائرحجازي",
+   "status": "active"
+  },
+  {
+   "id": "S0407",
+   "classId": "C18",
+   "firstName": "عليرضا",
+   "lastName": "غريب",
+   "status": "active"
+  },
+  {
+   "id": "S0408",
+   "classId": "C18",
+   "firstName": "پارسا",
+   "lastName": "كوخاله",
+   "status": "active"
+  },
+  {
+   "id": "S0409",
+   "classId": "C18",
+   "firstName": "نذير",
+   "lastName": "گله دار",
+   "status": "active"
+  },
+  {
+   "id": "S0410",
+   "classId": "C18",
+   "firstName": "فرزاد",
+   "lastName": "مجنون",
+   "status": "active"
+  },
+  {
+   "id": "S0411",
+   "classId": "C18",
+   "firstName": "رضا",
+   "lastName": "معروفي",
+   "status": "active"
+  },
+  {
+   "id": "S0412",
+   "classId": "C18",
+   "firstName": "محمد",
+   "lastName": "مقتدر",
+   "status": "active"
+  },
+  {
+   "id": "S0413",
+   "classId": "C18",
+   "firstName": "آريا",
+   "lastName": "نعمتي",
+   "status": "active"
+  }
+ ],
+ "teachers": [
+  {
+   "id": "T001",
+   "name": "هژیر اسماعیل نژاد",
+   "type": "workshop",
+   "personnelNo": "93991627",
+   "courses": [
+    {
+     "title": "کارگاه دوازدهم برق-تابلو سازی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دوازدهم برق-رله قابل برنامه ریزی",
+     "hours": 71316
+    },
+    {
+     "title": "دانش فنی دوازدهم برق",
+     "hours": 71318
+    },
+    {
+     "title": "اخلاق حرفه ای12 برق",
+     "hours": 88150
+    },
+    {
+     "title": "الزمات دهم برق",
+     "hours": 88110
+    }
+   ],
+   "totalHours": 318902
+  },
+  {
+   "id": "T002",
+   "name": "احد عثمانی",
+   "type": "workshop",
+   "personnelNo": "94059070",
+   "courses": [
+    {
+     "title": "کارگاه دوازدهم برق-تابلو سازی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دوازدهم برق-رله قابل برنامه ریزی",
+     "hours": 71316
+    },
+    {
+     "title": "نقشه کشی دهم الکترونیک",
+     "hours": 45145
+    },
+    {
+     "title": "دانش فنی پایه دهم الکترونیک",
+     "hours": 45161
+    }
+   ],
+   "totalHours": 161630
+  },
+  {
+   "id": "T003",
+   "name": "کیوان عباسی",
+   "type": "workshop",
+   "personnelNo": "29980593",
+   "courses": [
+    {
+     "title": "کارگاه دهم برق-طراحی و سیم کشی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم برق- جریان ضعیف",
+     "hours": 45375
+    },
+    {
+     "title": "آمادگی دفاعی 12 تاسیسات",
+     "hours": 10071
+    },
+    {
+     "title": "نقشه کشی 10 برق",
+     "hours": 45145
+    },
+    {
+     "title": "دانش فنی دهم برق",
+     "hours": 45152
+    }
+   ],
+   "totalHours": 145751
+  },
+  {
+   "id": "T004",
+   "name": "احد رحمانی",
+   "type": "workshop",
+   "personnelNo": "29041031",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم برق-تاسیسات حفاظتی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه یازدهم برق-کابل کشی و سیم پیچی",
+     "hours": 71314
+    }
+   ],
+   "totalHours": 71322
+  },
+  {
+   "id": "T005",
+   "name": "ذکریا نصیریان",
+   "type": "workshop",
+   "personnelNo": "94076747",
+   "courses": [
+    {
+     "title": "کارگاه دهم برق-طراحی و سیم کشی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم برق- جریان ضعیف",
+     "hours": 45375
+    },
+    {
+     "title": "نقشه کشی دهم برق",
+     "hours": 45145
+    },
+    {
+     "title": "فناوری نوین 11 برق",
+     "hours": 88120
+    },
+    {
+     "title": "مدیریت تولید 11 ماشین ابزار",
+     "hours": 88120
+    }
+   ],
+   "totalHours": 266768
+  },
+  {
+   "id": "T006",
+   "name": "شیرکو سنبل حسینی",
+   "type": "workshop",
+   "personnelNo": "29011399",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم برق-تاسیسات حفاظتی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه یازدهم برق-کابل کشی و سیم پیچی",
+     "hours": 71314
+    }
+   ],
+   "totalHours": 71322
+  },
+  {
+   "id": "T007",
+   "name": "یوسف نومسلمان",
+   "type": "workshop",
+   "personnelNo": "56133021",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم الکترونیک - ساخت مدارات",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T008",
+   "name": "بختیار نانوا",
+   "type": "workshop",
+   "personnelNo": "56134159",
+   "courses": [
+    {
+     "title": "کارگاه دهم الکترونیک-ساخت مدارات",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم الکترونیک-تخصصی الکترونیک",
+     "hours": 45418
+    },
+    {
+     "title": "الزامات دهم ماشین ابزار",
+     "hours": 88110
+    },
+    {
+     "title": "الزامات دهم الکترونیک",
+     "hours": 88110
+    }
+   ],
+   "totalHours": 221646
+  },
+  {
+   "id": "T009",
+   "name": "سوران چوکلی",
+   "type": "workshop",
+   "personnelNo": "29000872",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم الکترونیک - مونتاژ",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه ن.آوری 11 ماشین ابزار",
+     "hours": 88140
+    },
+    {
+     "title": "کارگاه نوآوری 11 مکانیک",
+     "hours": 88140
+    },
+    {
+     "title": "اخلاق حرفه ای 12 الکترونیک",
+     "hours": 88150
+    },
+    {
+     "title": "کارگاه یازدهم لکترونیک- ساخت پروژه",
+     "hours": 71415
+    }
+   ],
+   "totalHours": 335853
+  },
+  {
+   "id": "T010",
+   "name": "علی خضری",
+   "type": "workshop",
+   "personnelNo": "56438625",
+   "courses": [
+    {
+     "title": "کارگاه دوازدهم الکترونیک-نصب دستگاههای اداری",
+     "hours": 8
+    },
+    {
+     "title": "دانش فنی 12 الکترونیک",
+     "hours": 71418
+    },
+    {
+     "title": "کارگاه دوازدهم الکترونیک- نصب دستگاه های اداری",
+     "hours": 82122303
+    }
+   ],
+   "totalHours": 82193729
+  },
+  {
+   "id": "T011",
+   "name": "شیرکو احمدی",
+   "type": "workshop",
+   "personnelNo": "12506442",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم الکترونیک - ساخت برد دیجیتال",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T012",
+   "name": "کریم چابکی",
+   "type": "workshop",
+   "personnelNo": "29021846",
+   "courses": [
+    {
+     "title": "کارگاه دوازدهم مکانیک-سیستم تعلیق و فرمان",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه یازدهم مکانیک- سوخت و جرقه",
+     "hours": 45351
+    },
+    {
+     "title": "کارگاه دوازدهم مکانیک- برق خودرو",
+     "hours": 71615
+    }
+   ],
+   "totalHours": 116974
+  },
+  {
+   "id": "T013",
+   "name": "ناصر مصطفوی نیا",
+   "type": "workshop",
+   "personnelNo": "29011400",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم مکانیک-گیربکس و دیفرانسیل",
+     "hours": 8
+    },
+    {
+     "title": "دانش فنی تخصصی مکانیک",
+     "hours": 45183
+    },
+    {
+     "title": "اخلاق حرفه ای",
+     "hours": 45146
+    },
+    {
+     "title": "کارگاه یازدهم مکانیک- سیستم تعلیق و فرمان",
+     "hours": 71614
+    },
+    {
+     "title": "الزامات محیط کار دهم مکانیک",
+     "hours": 88120
+    }
+   ],
+   "totalHours": 250071
+  },
+  {
+   "id": "T014",
+   "name": "ارسلا ن صوفی زاده",
+   "type": "workshop",
+   "personnelNo": "29980595",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم مکانیک-گیربکس و دیفرانسیل",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم مکانیک-تعمیر خودرو سواری",
+     "hours": 45351
+    },
+    {
+     "title": "کارگاه دهم مکانیک-تعمیر مکانیکی موتور",
+     "hours": 45352
+    }
+   ],
+   "totalHours": 90711
+  },
+  {
+   "id": "T015",
+   "name": "احد حیدری",
+   "type": "workshop",
+   "personnelNo": "29034124",
+   "courses": [
+    {
+     "title": "دانش فنی دهم مکانیک",
+     "hours": 3
+    },
+    {
+     "title": "نقشه کشی دهم مکانیک",
+     "hours": 88110
+    },
+    {
+     "title": "کارگاه یازدهم مکانیک-گیربکس و دیفرانسیل",
+     "hours": 45352
+    },
+    {
+     "title": "کارگاه یازدهم مکانیک-تعلیق و فرمان",
+     "hours": 71614
+    }
+   ],
+   "totalHours": 205079
+  },
+  {
+   "id": "T016",
+   "name": "یوسف قادری",
+   "type": "workshop",
+   "personnelNo": "کارگاه دوازدهم مکانیک - سیستم سوخت",
+   "courses": [
+    {
+     "title": "71615",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T017",
+   "name": "هیوا سالخورده",
+   "type": "workshop",
+   "personnelNo": "56436808",
+   "courses": [
+    {
+     "title": "کارگاه دهم تاسیسات-لوله کشی تاسیسات",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم تاسیسات-گازرسانی و آتش نشانی",
+     "hours": 45320
+    },
+    {
+     "title": "دانش فنی تخصصی 12 تاسیسات",
+     "hours": 71328
+    }
+   ],
+   "totalHours": 116656
+  },
+  {
+   "id": "T018",
+   "name": "هیوا فیض اله بیگی",
+   "type": "workshop",
+   "personnelNo": "29980365",
+   "courses": [
+    {
+     "title": "دانش فنی دهم تاسیسات",
+     "hours": 3
+    },
+    {
+     "title": "نقشه کشی دهم تاسیسات",
+     "hours": 45146
+    },
+    {
+     "title": "کارگاه دوازدهم تاسیسات-سیتمهای گرمایشی و تابشی",
+     "hours": 71325
+    },
+    {
+     "title": "کارگاه دوازدهم تاسیسات- تعمیر سیستمهای سرمایشی و گرمایشی",
+     "hours": 71326
+    }
+   ],
+   "totalHours": 187800
+  },
+  {
+   "id": "T019",
+   "name": "آوات خادم پیر",
+   "type": "workshop",
+   "personnelNo": "29000681",
+   "courses": [
+    {
+     "title": "کارگاه نوآوری یازدهم تاسیسات",
+     "hours": 3
+    },
+    {
+     "title": "فنآوری یازده تاسیسات",
+     "hours": 88120
+    },
+    {
+     "title": "کارگاه یازدهم تاسیسات-سیستم آب گرم",
+     "hours": 71323
+    },
+    {
+     "title": "کارگاه یازدهم تاسیسات- سیستم موتور خانه",
+     "hours": 71324
+    },
+    {
+     "title": "آمادگی دفاعی دوازدهم معماری",
+     "hours": 10071
+    },
+    {
+     "title": "مدیریت خانواده 12 تاسیسات",
+     "hours": 2
+    }
+   ],
+   "totalHours": 240843
+  },
+  {
+   "id": "T020",
+   "name": "ادریس نیکبخت",
+   "type": "workshop",
+   "personnelNo": "29029024",
+   "courses": [
+    {
+     "title": "کارگاه دهم تاسیسات-لوله کشی تاسیسات",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم تاسیسات-گازرسانی و آتش نشانی",
+     "hours": 45320
+    },
+    {
+     "title": "نقشه کشی دهم تاسیسات",
+     "hours": 45146
+    },
+    {
+     "title": "نقشه کشی دهم مکانیک",
+     "hours": 45146
+    }
+   ],
+   "totalHours": 135620
+  },
+  {
+   "id": "T021",
+   "name": "یعقوب عبدالهی",
+   "type": "workshop",
+   "personnelNo": "کارگاه دوازدهم تاسیسات-سیستم گرمایشی",
+   "courses": [
+    {
+     "title": "71325",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T022",
+   "name": "رسول دهقان",
+   "type": "workshop",
+   "personnelNo": "29000443",
+   "courses": [
+    {
+     "title": "کارگاه دهم ساختمان سازی- سفت کاری ساختمان",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم ساختمان سازی- نازک کاری",
+     "hours": 45313
+    },
+    {
+     "title": "دانش فنی10 ساختمان",
+     "hours": 45208
+    },
+    {
+     "title": "آمادگی دفاعی 12 مکانیک",
+     "hours": 1
+    },
+    {
+     "title": "نقشه کشی دهم ساختمان",
+     "hours": 45148
+    }
+   ],
+   "totalHours": 135678
+  },
+  {
+   "id": "T023",
+   "name": "ابراهیم عزیززاده",
+   "type": "workshop",
+   "personnelNo": "29981037",
+   "courses": [
+    {
+     "title": "کارگاه یازدهم ساختمان - اسکلت سازی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه یازدهم ساختمان -نقشه کشی اتوکد",
+     "hours": 71111203
+    },
+    {
+     "title": "کارگاه دوازده معماری- طراحی داخلی",
+     "hours": 34322302
+    }
+   ],
+   "totalHours": 105433513
+  },
+  {
+   "id": "T024",
+   "name": "کسری قلندری",
+   "type": "workshop",
+   "personnelNo": "29002303",
+   "courses": [
+    {
+     "title": "کارگاه دوازده معماری- اجرای پوششهای مختلف",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه نوآوری یازده ساختمان",
+     "hours": 88140
+    },
+    {
+     "title": "تفکر وسواد رسانه 11 ساختمان",
+     "hours": 2
+    },
+    {
+     "title": "مدیریت تولید",
+     "hours": 2
+    },
+    {
+     "title": "دانش فنی تخصصی دوازدهم معماری",
+     "hours": 71328
+    },
+    {
+     "title": "اخلاق حرفه ای 12معماری",
+     "hours": 88110
+    },
+    {
+     "title": "مدیریت تولید11 مکانیک",
+     "hours": 88120
+    }
+   ],
+   "totalHours": 335710
+  },
+  {
+   "id": "T025",
+   "name": "سلیمان رسول ارشد",
+   "type": "workshop",
+   "personnelNo": "56136411",
+   "courses": [
+    {
+     "title": "کارگاه دهم ساختمان سازی- سفت کاری ساختمان",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دهم ساختمان سازی- نازک کاری",
+     "hours": 45313
+    },
+    {
+     "title": "نقشه کشی دهم ساختمان",
+     "hours": 45148
+    }
+   ],
+   "totalHours": 90469
+  },
+  {
+   "id": "T026",
+   "name": "مسعود آریا",
+   "type": "workshop",
+   "personnelNo": "کارگاه یازدهم ساختمان-ساختمان سازی",
+   "courses": [
+    {
+     "title": "71111203",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T027",
+   "name": "جمال محمود زاده",
+   "type": "workshop",
+   "personnelNo": "12619216",
+   "courses": [
+    {
+     "title": "دانش فنی10ماشین",
+     "hours": 3
+    },
+    {
+     "title": "نقشه کشی 10 ماشین",
+     "hours": 88040
+    },
+    {
+     "title": "کارگاه دهم ماشین ابزار- تولید به روش مونتاژ",
+     "hours": 71512
+    },
+    {
+     "title": "آمادگی دفاعی 12 الکترونیک",
+     "hours": 10071
+    },
+    {
+     "title": "کارگاه نوآوری برق",
+     "hours": 88140
+    },
+    {
+     "title": "کارگاه نوآوری الکترونیک",
+     "hours": 88140
+    },
+    {
+     "title": "مدیریت تولید",
+     "hours": 88140
+    }
+   ],
+   "totalHours": 434046
+  },
+  {
+   "id": "T028",
+   "name": "رحیم محمدامین پور",
+   "type": "workshop",
+   "personnelNo": "13137688",
+   "courses": [
+    {
+     "title": "کارگاه دهم ماشین ابزار- تولید به روش دستی",
+     "hours": 8
+    },
+    {
+     "title": "کارگاه دوازدهم ماشین ابزار-ساخت پروژه",
+     "hours": 71515
+    },
+    {
+     "title": "کارگاه دوازدهم ماشین ابزار- تولید به روش CNC",
+     "hours": 71516
+    }
+   ],
+   "totalHours": 143039
+  },
+  {
+   "id": "T029",
+   "name": "حسین صوفی محمدی",
+   "type": "workshop",
+   "personnelNo": "93985894",
+   "courses": [
+    {
+     "title": "دانش فنی تخصصی دوازدهم ماشین ابزار",
+     "hours": 4
+    },
+    {
+     "title": "اخلاق حرفه ای 12 ماشین",
+     "hours": 88150
+    },
+    {
+     "title": "کارگاه یازدهم ماشین ابزار- تراشکاری",
+     "hours": 71513
+    },
+    {
+     "title": "کارگاه یازدهم ماشین ابزار- فرزکاری",
+     "hours": 71514
+    },
+    {
+     "title": "الزامات 10 تاسیسات",
+     "hours": 88110
+    }
+   ],
+   "totalHours": 319291
+  },
+  {
+   "id": "T030",
+   "name": "سوران محمود نژاد",
+   "type": "workshop",
+   "personnelNo": "12618623",
+   "courses": [
+    {
+     "title": "کارگاه دوازدهم مکانیک - سیستم برق خودرو",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T050",
+   "name": "حسین حاجی عبدالله",
+   "type": "general",
+   "courses": [
+    {
+     "title": "دینی",
+     "hours": 20
+    }
+   ],
+   "totalHours": 28
+  },
+  {
+   "id": "T051",
+   "name": "یاسین فرید",
+   "type": "general",
+   "courses": [
+    {
+     "title": "دینی",
+     "hours": 8
+    },
+    {
+     "title": "جغرافیا",
+     "hours": 4
+    },
+    {
+     "title": "مدیریت خانواده",
+     "hours": 4
+    }
+   ],
+   "totalHours": 16
+  },
+  {
+   "id": "T052",
+   "name": "صلاح الدین زارعی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "عربی",
+     "hours": 18
+    }
+   ],
+   "totalHours": 18
+  },
+  {
+   "id": "T053",
+   "name": "کمال کریمی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "ریاضی",
+     "hours": 20
+    },
+    {
+     "title": "محیط زیست",
+     "hours": 6
+    },
+    {
+     "title": "آمادگی دفاعی",
+     "hours": 6
+    },
+    {
+     "title": "سلامت و بهداشت",
+     "hours": 4
+    },
+    {
+     "title": "مدیریت خانواده",
+     "hours": 2
+    }
+   ],
+   "totalHours": 38
+  },
+  {
+   "id": "T054",
+   "name": "هادی اسماعیل زاده",
+   "type": "general",
+   "courses": [
+    {
+     "title": "ریاضی",
+     "hours": 14
+    },
+    {
+     "title": "تفکر و سواد رسانه ای",
+     "hours": 8
+    },
+    {
+     "title": "سلامت و بهداشت",
+     "hours": 2
+    }
+   ],
+   "totalHours": 24
+  },
+  {
+   "id": "T055",
+   "name": "واحد عثمانی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "فیزیک",
+     "hours": 8
+    },
+    {
+     "title": "شیمی",
+     "hours": 4
+    }
+   ],
+   "totalHours": 12
+  },
+  {
+   "id": "T056",
+   "name": "قادر مروتی آذر",
+   "type": "general",
+   "courses": [
+    {
+     "title": "شیمی",
+     "hours": 8
+    },
+    {
+     "title": "فیزیک",
+     "hours": 4
+    },
+    {
+     "title": "جغرافیا",
+     "hours": 8
+    },
+    {
+     "title": "آمادگی",
+     "hours": 2
+    },
+    {
+     "title": "سلامت و بهداشت",
+     "hours": 2
+    }
+   ],
+   "totalHours": 24
+  },
+  {
+   "id": "T057",
+   "name": "یعقوب خضری",
+   "type": "general",
+   "courses": [
+    {
+     "title": "مدیریت خانواده",
+     "hours": 4
+    },
+    {
+     "title": "تفکر و سواد رسانه ای",
+     "hours": 2
+    },
+    {
+     "title": "سلامت و بهداشت",
+     "hours": 2
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T058",
+   "name": "شاهو عزیزی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "تاریخ",
+     "hours": 12
+    },
+    {
+     "title": "علوم اجتماعی",
+     "hours": 12
+    }
+   ],
+   "totalHours": 24
+  },
+  {
+   "id": "T059",
+   "name": "یونس بهادر",
+   "type": "general",
+   "courses": [
+    {
+     "title": "زبان",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T060",
+   "name": "نعمت شریفی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "زبان",
+     "hours": 16
+    }
+   ],
+   "totalHours": 16
+  },
+  {
+   "id": "T061",
+   "name": "لقمان پیروتی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "فارسی",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T062",
+   "name": "محمد صالحی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "فارسی",
+     "hours": 20
+    }
+   ],
+   "totalHours": 20
+  },
+  {
+   "id": "T063",
+   "name": "محمدامین قاضی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "فارسی",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T064",
+   "name": "کمال الدین بالو",
+   "type": "general",
+   "courses": [
+    {
+     "title": "الزامات محیط کار",
+     "hours": 2
+    },
+    {
+     "title": "انسان و محیط زیست",
+     "hours": 6
+    }
+   ],
+   "totalHours": 8
+  },
+  {
+   "id": "T065",
+   "name": "کامبیز عثمانی آذر",
+   "type": "general",
+   "courses": [
+    {
+     "title": "تربیت بدنی",
+     "hours": 20
+    }
+   ],
+   "totalHours": 28
+  },
+  {
+   "id": "T066",
+   "name": "احسان گورکی",
+   "type": "general",
+   "courses": [
+    {
+     "title": "تربیت بدنی",
+     "hours": 8
+    }
+   ],
+   "totalHours": 8
+  }
+ ],
+ "schedule": [
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "ریاضی1",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "دانش فنی",
+   "teacher": "احد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "دانش فنی- محمودزاده",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "فیزیک",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "کارگاه نوآوری",
+   "teacher": "کسری قلندری",
+   "isWorkshop": true
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "فناوری نوین",
+   "teacher": "آوات خادم پیر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "دانش فنی تخصص",
+   "teacher": "هژیر اسماعیل نژاد",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "عربی3- صلاح الدین زارعی",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "دینی3",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "آمادگی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "دانش فنی تخصص",
+   "teacher": "ناصر مصطفوی نیا",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "فیزیک",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "دانش فنی- احد عثمانی",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "دانش فنی",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "سفت کاری ساختمان",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "لوله کشی",
+   "teacher": "تاسیسات بهداشتی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "ریاضی1",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "تاسیسات",
+   "teacher": "حفاظتی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "کارگاه",
+   "teacher": "ساخت مدارهای دیجیتال",
+   "isWorkshop": true
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "به روش",
+   "teacher": "تراشکاری",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "عربی2- صلاح الدین زارعی",
+   "teacher": "کسری قلندری",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "کارگاه نوآوری",
+   "teacher": "آوات خادم پیر",
+   "isWorkshop": true
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "تعمیرات جعبه دنده",
+   "teacher": "ودیفرانسیل",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "دانش فنی تخصص",
+   "teacher": "هژیر اسماعیل نژاد",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "دینی3",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "فارسی3",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "آمادگی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "دانش فنی تخصص",
+   "teacher": "ناصر مصطفوی نیا",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "فارسی1",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "نقشه کشی",
+   "teacher": "احد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "نقشه کشی",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "دینی1",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "و میکرو کنترولر",
+   "teacher": "سوران چوکلی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "تفکر و سواد رسانه",
+   "teacher": "کسری قلندری",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "نوآوری-آوات خادم پیر",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "اخلاق حرفه ای",
+   "teacher": "هژیر اسماعیل نژاد",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "عربی3- صلاح الدین زارعی",
+   "teacher": "آوات خادم پیر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "ریاضی3",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "اخلاق حرفه ای",
+   "teacher": "ناصر مصطفوی نیا",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "الزامات محیط",
+   "teacher": "هژیر اسماعیل نژاد",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "نقشه کشی",
+   "teacher": "احد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "نقشه کشی",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "رسول ارشد",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "ادریس نیک بخت",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "الزامات محیط",
+   "teacher": "ناصر مصطفوی نیا",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "احد رحمانی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "مدیریت تولید",
+   "teacher": "کسری قلندری",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "محیط زیست",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "ارسلان صوفی زاده",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "عربی3- صلاح الدین زارعی",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "فارسی3",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "آمادگی- قادر مروتی اذر",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "دینی3",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "مدیریت خانواده",
+   "teacher": "آوات خادم پیر",
+   "isWorkshop": false
+  },
+  {
+   "day": "شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "دینی1",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "الزامات محیط",
+   "teacher": "بختیار نانوا",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "فارسی2",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "علوم اجتماعی",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "سلامت وبهداشت",
+   "teacher": "یعقوب خضری",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "ریاضی3",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "ریاضی3",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "طراحی",
+   "teacher": "وسیم کشی ساختمان",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "الزامات محیط",
+   "teacher": "بختیار نانوا",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "فارسی1",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "نازک کاری ساختمان",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "گاز رسانی و",
+   "teacher": "آتش نشانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "خودروهای",
+   "teacher": "سواری",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "سیم پیچی",
+   "teacher": "وکابل کشی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "کارگاه",
+   "teacher": "برد های الکترونیکی",
+   "isWorkshop": true
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "به روش",
+   "teacher": "فرزکاری",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "ریاضی2",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "تعمیرات سیستم های",
+   "teacher": "برق خودرو",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "ریاضی3",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "مدیریت خانواده",
+   "teacher": "یعقوب خضری",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "علوم اجتماعی",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "تزیینات کچی و مبلمان پارچه ای",
+   "teacher": "و پلیمری",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "پخش کننده",
+   "teacher": "گرمایشی وتابشی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "دینی3",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "فارسی 1",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "دینی1",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "ریاضی2",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "تفکر وسواد",
+   "teacher": "یعقوب خضری",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "ریاضی3",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "سلامت وبهداشت",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "علوم اجتماعی",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "کیوان عباسی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "رسول ارشد",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "ادریس نیک بخت",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "احد حیدری",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "احد رحمانی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "سوران چوکلی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "محیط زیست",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "فارسی 2",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "ناصر مصطفوی نیا",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "دینی3",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "علوم اجتماعی",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "مدیریت خانواده",
+   "teacher": "یعقوب خضری",
+   "isWorkshop": false
+  },
+  {
+   "day": "یکشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "سلامت وبهداشت",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "نقشه کشی",
+   "teacher": "رسول دهقان - رسول ارشد",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "دینی1",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "کارگاه نوآوری",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": true
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "شیمی",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "عربی2- صلاح الدین زارعی",
+   "teacher": "سوران چوکلی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "تاریخ",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "زبان2",
+   "teacher": "یونس بهادر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "نوآوری- سوران چوکلی",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "آمادگی",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "آمادگی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "حسین صوفی محمدی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "مدیریت خانواده",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "تاسیسات",
+   "teacher": "جریان ضعیف",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "طراحی و",
+   "teacher": "ساخت مدارات",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "ساخت قطعات با ابزار های",
+   "teacher": "دستی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "نقشه کشی",
+   "teacher": "رسول دهقان - رسول ارشد",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "فارسی1",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "مکانیکی",
+   "teacher": "موتور",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "عربی2- صلاح الدین زارعی",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "نوآوری- جمال محمود زاده",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "شیمی",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "زبان2",
+   "teacher": "یونس بهادر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "تاریخ",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "دینی2",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "مدیریت خانواده",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "اخلاق حرفه ای",
+   "teacher": "سوران چوکلی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "حسین صوفی محمدی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "معماری داخلی فضا های",
+   "teacher": "تجاری",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "تاسیسات",
+   "teacher": "سرمایشی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "آمادگی",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "عربی1- صلاح الدین زارعی",
+   "teacher": "رسول دهقان",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "زبان1",
+   "teacher": "یونس بهادر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "محیط زیست",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "کارگاه نوآوری",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": true
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "کارگاه نوآوری",
+   "teacher": "سوران چوکلی",
+   "isWorkshop": true
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "دینی2",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "شیمی",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "تاریخ",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "فارسی3",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "علی خضری",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "اخلاق حرفه ای",
+   "teacher": "حسین صوفی محمدی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "آمادگی- رسول دهقان",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "کیوان عباسی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "دانش فنی",
+   "teacher": "رسول دهقان",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "الزامات محیط",
+   "teacher": "حسین صوفی محمدی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "ارسلان صوفی زاده",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "تاریخ",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "فناوری",
+   "teacher": "جمال محمود زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "زبان2",
+   "teacher": "یونس بهادر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "شیمی",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "دینی2",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "کارگاه نوآوری",
+   "teacher": "سوران چوکلی",
+   "isWorkshop": true
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "سلامت وبهداشت",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "علی خضری",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "آمادگی",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "دوشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "فارسی3",
+   "teacher": "محمد صالحی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "دانش فنی -کیوان عباسی",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "فارسی1",
+   "teacher": "لقمان پیروتی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "نقشه کشی",
+   "teacher": "فیض الله بیگی - نیک بخت",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "دانش فنی",
+   "teacher": "احد حیدری",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "ریاضی2",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "زبان2",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "مدیریت تولید",
+   "teacher": "ذکریا نصیریان",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "تربیت بدنی",
+   "teacher": "احسان گورکی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "علوم اجتماعی",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "عربی3- صلاح الدین زارعی",
+   "teacher": "کیوان عباسی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "دانش فنی",
+   "teacher": "کیوان عباسی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "کارگاه تخصصی",
+   "teacher": "الکترونیک",
+   "isWorkshop": true
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "کارگاه",
+   "teacher": "به روش تراشکاری",
+   "isWorkshop": true
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "تربیت بدنی",
+   "teacher": "احسان گورکی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "نقشه کشی",
+   "teacher": "فیض الله بیگی - نیک بخت",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "دانش فنی - احد حیدری",
+   "teacher": "صلاح الدین زارعی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "فناوری نوین",
+   "teacher": "ذکریا نصیریان",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "ریاضی2",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "فارسی2",
+   "teacher": "لقمان پیروتی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "تهیه نقشه های ساختمانی",
+   "teacher": "( اتوکد )",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "سیستم های",
+   "teacher": "گرمایشی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "زبان2",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "تابلوسازی برق",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "نصب وسرویس",
+   "teacher": "لوازم الکترونیکی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "کارگاه",
+   "teacher": "ساخت پروژه",
+   "isWorkshop": true
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "سلامت وبهداشت",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "علوم اجتماعی",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "سیستم",
+   "teacher": "سوخت وجرقه",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "نقشه کشی",
+   "teacher": "نصیریان + عباسی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "زبان2",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "عربی1- صلاح الدین زارعی",
+   "teacher": "فیض الله بیگی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "نقشه کشی",
+   "teacher": "احد حیدری+ نیک بخت",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "شیمی",
+   "teacher": "واحد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "تربیت بدنی",
+   "teacher": "احسان گورکی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "تاریخ",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "ریاضی2",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "فارسی3",
+   "teacher": "لقمان پیروتی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "سلامت وبهداشت",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "نقشه کشی",
+   "teacher": "نصیریان + عباسی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "جمال محمود زاده",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "ریاضی2",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "دانش فنی",
+   "teacher": "هیوا فیض الله بیگی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "نقشه کشی",
+   "teacher": "احد حیدری+ نیک بخت",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "زبان2",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "تاریخ",
+   "teacher": "شاهو عزیزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "تربیت بدنی",
+   "teacher": "احسان گورکی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "ابراهیم عزیززاده",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "آوات خادم پیر",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "شیمی",
+   "teacher": "واحد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "احد عثمانی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "مدیریت خانواده",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "سه شنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "فارسی3",
+   "teacher": "لقمان پیروتی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "جغرافیا",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "فیزیک",
+   "teacher": "واحد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "الزامات محیط",
+   "teacher": "کمال الدین بالو",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "جغرافیا",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "زبان",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "تفکروسواد",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "دینی2",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "ریاضی2",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "فارسی2",
+   "teacher": "محمد امین قاضی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "کسری قلندری",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "1و2",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "هیوا سالخورده",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "زبان1",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "فیزیک",
+   "teacher": "واحد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "جغرافیا",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "جغرافیا",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "ریاضی1",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "فارسی2",
+   "teacher": "محمد امین قاضی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "محیط زیست",
+   "teacher": "کمال الدین بالو",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "دینی2",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "ساختمان",
+   "lesson": "ساختمان سازی بتنی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "تاسیسات",
+   "lesson": "نصب تاسیسات ساختمان",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "تفکروسواد",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "رله های",
+   "teacher": "قابل برنامه ریزی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "الکترونیک",
+   "lesson": "دستگاه های الکترونیکی",
+   "teacher": "اداری و صنعتی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ماشین ابزار",
+   "lesson": "تولید",
+   "teacher": "به روشCNC",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "کسری قلندری",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "دانش فنی تخصصی",
+   "teacher": "هیوا سالخورده",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "3و4",
+   "grade": 12,
+   "major": "مکانیک",
+   "lesson": "سیستم",
+   "teacher": "برق خودرو",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "دینی1",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "ریاضی1",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "زبان",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "فیزیک",
+   "teacher": "واحد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "جغرافیا",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "دینی2",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "فارسی2",
+   "teacher": "محمد امین قاضی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "تفکروسواد",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "محیط زیست",
+   "teacher": "کمال الدین بالو",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "ساختمان",
+   "lesson": "اخلاق حرفه ای",
+   "teacher": "کسری قلندری",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "5و6",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "اخلاق حرفه ای",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "برق",
+   "lesson": "جغرافیا",
+   "teacher": "قادر مروتی اذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "الکترونیک",
+   "lesson": "زبان",
+   "teacher": "نعمت شریفی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ماشین ابزار",
+   "lesson": "ریاضی1",
+   "teacher": "کمال کریمی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "ساختمان",
+   "lesson": "دینی1",
+   "teacher": "یاسین فرید",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "تاسیسات",
+   "lesson": "فیزیک",
+   "teacher": "واحد عثمانی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 10,
+   "major": "مکانیک",
+   "lesson": "فارسی1",
+   "teacher": "محمد امین قاضی",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "برق",
+   "lesson": "تربیت بدنی",
+   "teacher": "عثمانی آذر",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "الکترونیک",
+   "lesson": "تفکروسواد",
+   "teacher": "هادی اسماعیل زاده",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "ماشین ابزار",
+   "lesson": "محیط زیست",
+   "teacher": "کمال الدین بالو",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 11,
+   "major": "مکانیک",
+   "lesson": "مدیریت تولید",
+   "teacher": "کسری قلندری",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "برق",
+   "lesson": "احد عثمانی",
+   "teacher": "",
+   "isWorkshop": false
+  },
+  {
+   "day": "چهارشنبه",
+   "period": "7و8",
+   "grade": 12,
+   "major": "تاسیسات",
+   "lesson": "دینی 3",
+   "teacher": "حسین حاجی عبدالله",
+   "isWorkshop": false
+  }
+ ],
+ "dataReview": [
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 1و2 — 12 الکترونیک: عربی3- صلاح الدین زارعی / جمال محمود زاده"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "شنبه 3و4 — 10 تاسیسات: لوله کشی / تاسیسات بهداشتی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "شنبه 3و4 — 11 برق: تاسیسات / حفاظتی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "شنبه 3و4 — 11 الکترونیک: کارگاه / ساخت مدارهای دیجیتال"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "شنبه 3و4 — 11 ماشین ابزار: به روش / تراشکاری"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 3و4 — 11 ساختمان: عربی2- صلاح الدین زارعی / کسری قلندری"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "شنبه 3و4 — 11 مکانیک: تعمیرات جعبه دنده / ودیفرانسیل"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 5و6 — 11 ساختمان: تفکر و سواد رسانه / کسری قلندری"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 5و6 — 12 برق: اخلاق حرفه ای / هژیر اسماعیل نژاد"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 5و6 — 12 ساختمان: عربی3- صلاح الدین زارعی / آوات خادم پیر"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 5و6 — 12 مکانیک: اخلاق حرفه ای / ناصر مصطفوی نیا"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 7و8 — 10 برق: الزامات محیط / هژیر اسماعیل نژاد"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 7و8 — 10 مکانیک: الزامات محیط / ناصر مصطفوی نیا"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "شنبه 7و8 — 12 تاسیسات: مدیریت خانواده / آوات خادم پیر"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "یکشنبه 1و2 — 10 ماشین ابزار: الزامات محیط / بختیار نانوا"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 10 برق: طراحی / وسیم کشی ساختمان"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "یکشنبه 3و4 — 10 الکترونیک: الزامات محیط / بختیار نانوا"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 10 تاسیسات: گاز رسانی و / آتش نشانی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 10 مکانیک: خودروهای / سواری"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 11 برق: سیم پیچی / وکابل کشی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 11 الکترونیک: کارگاه / برد های الکترونیکی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 11 ماشین ابزار: به روش / فرزکاری"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 11 مکانیک: تعمیرات سیستم های / برق خودرو"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 12 ساختمان: تزیینات کچی و مبلمان پارچه ای / و پلیمری"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "یکشنبه 3و4 — 12 تاسیسات: پخش کننده / گرمایشی وتابشی"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "دوشنبه 1و2 — 11 ماشین ابزار: عربی2- صلاح الدین زارعی / سوران چوکلی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "دوشنبه 3و4 — 10 برق: تاسیسات / جریان ضعیف"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "دوشنبه 3و4 — 10 الکترونیک: طراحی و / ساخت مدارات"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "دوشنبه 3و4 — 10 ماشین ابزار: ساخت قطعات با ابزار های / دستی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "دوشنبه 3و4 — 10 مکانیک: مکانیکی / موتور"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "دوشنبه 3و4 — 11 برق: عربی2- صلاح الدین زارعی / جمال محمود زاده"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "دوشنبه 3و4 — 12 الکترونیک: اخلاق حرفه ای / سوران چوکلی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "دوشنبه 3و4 — 12 ساختمان: معماری داخلی فضا های / تجاری"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "دوشنبه 3و4 — 12 تاسیسات: تاسیسات / سرمایشی"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "دوشنبه 5و6 — 10 ساختمان: عربی1- صلاح الدین زارعی / رسول دهقان"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "دوشنبه 5و6 — 12 ماشین ابزار: اخلاق حرفه ای / حسین صوفی محمدی"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "دوشنبه 7و8 — 10 تاسیسات: الزامات محیط / حسین صوفی محمدی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 1و2 — 10 تاسیسات: نقشه کشی / فیض الله بیگی - نیک بخت"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "سه شنبه 1و2 — 12 تاسیسات: عربی3- صلاح الدین زارعی / کیوان عباسی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 10 الکترونیک: کارگاه تخصصی / الکترونیک"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 10 ماشین ابزار: کارگاه / به روش تراشکاری"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 10 تاسیسات: نقشه کشی / فیض الله بیگی - نیک بخت"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 11 ساختمان: تهیه نقشه های ساختمانی / ( اتوکد )"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 11 تاسیسات: سیستم های / گرمایشی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 12 الکترونیک: نصب وسرویس / لوازم الکترونیکی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 12 ماشین ابزار: کارگاه / ساخت پروژه"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 3و4 — 12 مکانیک: سیستم / سوخت وجرقه"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 5و6 — 10 برق: نقشه کشی / نصیریان + عباسی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 5و6 — 10 تاسیسات: عربی1- صلاح الدین زارعی / فیض الله بیگی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 7و8 — 10 برق: نقشه کشی / نصیریان + عباسی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "سه شنبه 7و8 — 10 تاسیسات: دانش فنی / هیوا فیض الله بیگی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "چهارشنبه 3و4 — 12 برق: رله های / قابل برنامه ریزی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "چهارشنبه 3و4 — 12 الکترونیک: دستگاه های الکترونیکی / اداری و صنعتی"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "چهارشنبه 3و4 — 12 ماشین ابزار: تولید / به روشCNC"
+  },
+  {
+   "issue": "نام معلم در فهرست ابلاغ یافت نشد",
+   "detail": "چهارشنبه 3و4 — 12 مکانیک: سیستم / برق خودرو"
+  },
+  {
+   "issue": "درس عمومی با هنرآموز فنی تطبیق داده شده",
+   "detail": "چهارشنبه 5و6 — 12 ساختمان: اخلاق حرفه ای / کسری قلندری"
+  }
+ ]
+}
